@@ -1,5 +1,7 @@
 Hi, I'm Zayaan. I'm a computer science student at the University of Toronto, building at the intersection of AI, computer vision, and web3. [View resume](./Zayaan_Bhanwadia_Resume.pdf).
 
+Visit my website to learn more about me: [https://zayaanb.github.io/ZayaanBhanwadia/](url)
+
 Previously worked at: [`AMACSS`](https://github.com/ZayaanB) [`DECA Inc.`](https://deca.org) [`NASA HUNCH`](https://www.nasa.gov/hunch) [`Junior Achievement`](https://jacan.org)
 
 
