@@ -6,7 +6,7 @@ Visit my website to learn more about me: [My Website](https://zayaanb.github.io/
 Previously worked at: AMACSS, DECA Inc., NASA HUNCH, Junior Achievement
 
 
-|![GitHub Profile Summary](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=ZayaanB&theme=dracula)|![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ZayaanB&theme=dracula)|
+|![GitHub Profile Summary](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=ZayaanB&theme=dracula)
 |-----|------|
 
  
