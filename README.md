@@ -12,7 +12,7 @@ Previously worked at: AMACSS, DECA Inc., NASA HUNCH, Junior Achievement
 
 1. [Context Sync VSCode Extension](https://github.com/ZayaanB/Context-Sync) (Typescript, VS Code Extension API, Node.js)
    - A VS Code extension that allows teams to share AI context windows
-   - Published on [https://marketplace.visualstudio.com/items?itemName=ZayaanBhanwadia.context-sync&ssr=false#overview](url).
+   - Published on https://marketplace.visualstudio.com/items?itemName=ZayaanBhanwadia.context-sync&ssr=false#overview.
 2. [Halo Healthcare](https://github.com/ZayaanB/Halo-Healthcare) (Python, TypeScript, FastAPI, Next.js)
    - A senior care visualization and monitoring platform with a 3D hospital view, doctor dashboard, voice chatbot, and fall detection. Built with FastAPI backend, Next.js frontend, and computer vision for live monitoring.
 3. [Automated Table Tennis Referee](https://github.com/ZayaanB) (Python, Computer Vision, Solana)
