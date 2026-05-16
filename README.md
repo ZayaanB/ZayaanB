@@ -2,6 +2,8 @@ Hi, I'm Zayaan. I'm a computer science student at the University of Toronto, bui
 
 Visit my website to learn more about me: [My Website](https://zayaanb.github.io/ZayaanBhanwadia/)
 
+Currently at: KorrNet Creative Inc.
+
 Previously worked at: AMACSS, DECA Inc., NASA HUNCH, Junior Achievement
 
 
