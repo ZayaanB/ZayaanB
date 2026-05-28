@@ -2,7 +2,7 @@ Hi, I'm Zayaan. I'm a computer science student at the University of Toronto, bui
 
 Visit my website to learn more about me: [My Website](https://zayaanb.github.io/ZayaanBhanwadia/)
 
-Previously worked at: AMACSS, DECA Inc., NASA HUNCH, Junior Achievement
+Currently at: KorraNet Creative Inc.
 
 
 ![GitHub Profile Summary](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=ZayaanB&theme=dracula)
