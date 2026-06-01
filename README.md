@@ -1,6 +1,6 @@
 Hi, I'm Zayaan. I'm a computer science student at the University of Toronto, building at the intersection of AI, computer vision, and web3. [View resume](./Zayaan_Bhanwadia_Resume.pdf).
 
-Visit my website to learn more about me: [My Website](https://zayaanb.github.io/ZayaanBhanwadia/)
+Visit my website to learn more about me: [My Website](https://zayaanb.github.io/ZayaanBhanwadia/) <!--Comment-->
 
 Currently at: KorraNet Creative Inc.
 
