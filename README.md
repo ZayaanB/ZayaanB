@@ -7,11 +7,11 @@
 
 - 🌱 I’m currently learning **Rust, Systems Design, Embedded Systems Programming**
 
-- 👨‍💻 All of my projects are available at [https://zayaanb.github.io/ZayaanBhanwadia/](https://zayaanb.github.io/ZayaanBhanwadia/)
+- 👨‍💻 All of my projects are available at [My Github](https://github.com/ZayaanB)
 
 - 📫 How to reach me **zayaan1509@gmail.com**
 
-- 📄 Know about my experiences [./Zayaan_Bhanwadia_Resume.pdf](My Resume)
+- 📄 Know about my experiences [My Resume](./Zayaan_Bhanwadia_Resume.pdf)
 
 
 <h3 align="left">Languages and Tools:</h3>
