@@ -5,7 +5,7 @@
 
 - 🌱 I’m currently learning **Rust, Systems Design, Embedded Systems Programming**
 
-- 👨‍💻 All of my projects are available at [My Github](https://github.com/ZayaanB)
+- 👨‍💻 All of my projects are at [My Github](https://github.com/ZayaanB)
 
 - 📫 How to reach me **zayaan1509@gmail.com**
 
