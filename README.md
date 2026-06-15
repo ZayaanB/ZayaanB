@@ -3,13 +3,13 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=zayaanb&label=Profile%20views&color=0e75b6&style=flat" alt="zayaanb" /> </p>
 
-- 🌱 I’m currently learning **Rust, Systems Design, Embedded Systems Programming**
+- 🌱 I’m currently learning: **Rust, Systems Design, Embedded Systems Programming**
 
-- 👨‍💻 All of my projects are at [My Github](https://github.com/ZayaanB)
+- 👨‍💻 All of my projects are at: [My Github](https://github.com/ZayaanB)
 
-- 📫 How to reach me **zayaan1509@gmail.com**
+- 📫 You can reach me at: **zayaan1509@gmail.com**
 
-- 📄 Know about my experiences [My Resume](./Zayaan_Bhanwadia_Resume.pdf)
+- 📄 Know about my experiences: [My Resume](./Zayaan_Bhanwadia_Resume.pdf)
 
 
 <h3 align="left">Languages and Tools:</h3>
