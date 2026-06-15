@@ -1,11 +1,12 @@
-<p align="center">
-  Hi <img src="https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif" /> My name is Zayaan Bhanwadia
-</p>
+<h1 align="center">
+  Hi <img src="https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif" width="30"/> My name is Zayaan Bhanwadia
+</h1>
 
 <p align="center">
-  Software Developer and Student @ University of Toronto
+  <strong>Software Developer and Student @ University of Toronto</strong>
 </p>
-------------------------------------------------------
+
+---
 
 * 🌍  I'm based in Canada
 * 🖥️  See my portfolio at [My Portfolio](http://zayaanb.github.io/ZayaanBhanwadia/)
