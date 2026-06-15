@@ -2,9 +2,9 @@
   Hi <img src="https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif" width="30"/> My name is Zayaan Bhanwadia
 </h1>
 
-<p align="center">
+<h2 align="center">
   <strong>Software Developer and Student @ University of Toronto</strong>
-</p>
+</h2>
 
 ---
 
