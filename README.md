@@ -9,7 +9,7 @@
 ---
 
 * 🌍  I'm based in Canada
-* 🖥️  See my portfolio at: [My Portfolio](http://zayaanb.github.io/ZayaanBhanwadia/)
+* 🖥️  See my portfolio at: [My Portfolio](http://zayaanb.github.io/ZayaanB/)
 * ✉️  You can contact me at: [zayaan1509@gmail.com](mailto:zayaan1509@gmail.com)
 * 🚀  I'm currently working on building a [Embedded Key Value Store](http://https://github.com/ZayaanB/kvstore)
 * 🧠  I'm currently learning: Embedded Systems Programming and Node.js
