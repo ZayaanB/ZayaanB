@@ -58,17 +58,6 @@ Hands-on experience in **secure credential management, OAuth architecture, and r
 
 ---
 
-### 🤖 AI / ML Expertise
-
-| Domain | Proficiency | Details |
-|---|---|---|
-| Computer Vision | Applied | Real-time fall detection system with 98%+ accuracy using OpenCV |
-| Applied ML Systems | Applied | Built clinical AI assistant automating intake/check-in workflows |
-| AI Integration & Tooling | Applied | VS Code extension automating AI chat context-sharing (Copilot integration) |
-| Data Engineering for AI | Working Knowledge | Structured patient/session data schemas for downstream model use |
-
----
-
 ### 🚀 Featured Projects
 
 <details>
