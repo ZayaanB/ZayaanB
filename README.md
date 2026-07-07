@@ -32,7 +32,6 @@
 
 I'm a Computer Science student at the **University of Toronto** (Honours B.Sc., Co-op) building across the stack. From low-level systems in C++ to production Node/FastAPI applications and applied AI/ML tooling. I care about **reliability, performance, and clean developer experience**, whether that means shaving lock contention out of an embedded key-value store or cutting API failure rates in a production service by 85%+.
 
-Hands-on experience in **secure credential management, OAuth architecture, and real-time computer vision systems**.
 
 **🎯 Open To:** Software Engineering Internships · Software Engineer · Software Developer · Full-Stack & Backend Engineering · AI/ML Engineering
 
