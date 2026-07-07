@@ -147,15 +147,6 @@ An AI-powered clinical assistant automating patient intake with real-time comput
 
 <br/>
 
-**Co-President & Lead Engineer** · NASA Hunch
-`Sept 2023 – June 2025` · Toronto, ON
-
-- Secured a 3rd-place international finish as executive of the first Canadian team to compete in NASA Hunch
-- Built an autonomous Lunar Bot using Arduino and CAD, achieving 95%+ obstacle avoidance in simulated terrain
-- Programmed a real-time C++ control algorithm with non-blocking execution loops for synchronized image capture
-
-`C++` `Arduino` `CAD` `Real-Time Systems`
-
 ---
 
 ### 🏆 Achievements
