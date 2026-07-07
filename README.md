@@ -174,14 +174,6 @@ An AI-powered clinical assistant automating patient intake with real-time comput
 
 ---
 
-### 📈 Contribution Activity
-
-<div align="center">
-
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=ZayaanB&theme=tokyo-night&hide_border=true&bg_color=0D0221&color=A78BFA&line=8B5CF6&point=C4B5FD)
-
-</div>
-
 ### 🐍 Contribution Snake
 
 <div align="center">
