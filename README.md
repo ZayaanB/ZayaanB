@@ -1,9 +1,9 @@
 <div align="center">
 
-![Header](https://capsule-render.com/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=Zayaan%20Bhanwadia&fontSize=42&fontColor=E0D4FF&animation=fadeIn&fontAlignY=38&desc=Software%20Engineer%20%7C%20Full%20Stack%20%2B%20AI/ML&descAlignY=55&descSize=18)
+![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=Zayaan%20Bhanwadia&fontSize=42&fontColor=E0D4FF&animation=fadeIn&fontAlignY=38&desc=Software%20Engineer%20%7C%20Full%20Stack%20%2B%20AI/ML&descAlignY=55&descSize=18)
 
 <a href="https://github.com/ZayaanB">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=A78BFA&center=true&vCenter=true&width=560&lines=Full-Stack+Engineer+%7C+Systems+%2B+AI%2FML;Building+at+the+intersection+of+backend+%26+ML;University+of+Toronto+%E2%80%94+CS+%2B+Stats" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=A78BFA&center=true&vCenter=true&width=560&lines=Full-Stack+Engineer+%7C+Systems+%2B+AI%2FML;University+of+Toronto+%E2%80%94+CS+%2B+Stats" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -32,7 +32,7 @@
 
 I'm a Computer Science student at the **University of Toronto** (Honours B.Sc., Co-op) building across the stack — from low-level systems in C++ to production React/FastAPI applications and applied AI/ML tooling. I care about **reliability, performance, and clean developer experience**, whether that means shaving lock contention out of an embedded key-value store or cutting API failure rates in a production service by 85%+.
 
-Currently building backend infrastructure and AI-integrated tooling, with hands-on experience in **secure credential management, OAuth architecture, and real-time computer vision systems**.
+Hands-on experience in **secure credential management, OAuth architecture, and real-time computer vision systems**.
 
 **🎯 Open To:** Software Engineering Internships/New Grad roles · Full-Stack & Backend Engineering · AI/ML Engineering · Systems Programming
 
@@ -178,30 +178,13 @@ An AI-powered clinical assistant automating patient intake with real-time comput
 |---|---|
 | 🥉 3rd Place, International | NASA Hunch — first Canadian team to compete |
 | 🏅 Top 10 Projects | GenAI Genesis — Clinical AI Assistant |
+| 🏆 Finalist | Hack Canada |
+| 🥉 3rd Place Overall | UTRA Hacks |
 | 📦 500+ Downloads | Context Sync Extension (VS Code Marketplace) |
 
 </div>
 
 ---
-
-### 📊 GitHub Analytics
-
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ZayaanB&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D0221&title_color=A78BFA&icon_color=A78BFA&text_color=C4B5FD)
-![Streak Stats](https://streak-stats.demolab.com?user=ZayaanB&theme=tokyonight&hide_border=true&background=0D0221&ring=A78BFA&fire=A78BFA&currStreakLabel=C4B5FD)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ZayaanB&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D0221&title_color=A78BFA&text_color=C4B5FD)
-
-</div>
-
-### 🏅 GitHub Trophies
-
-<div align="center">
-
-![Trophies](https://github-profile-trophy.vercel.app/?username=ZayaanB&theme=algolia&no-frame=true&row=1&column=6&margin-w=8)
-
-</div>
 
 ### 📈 Contribution Activity
 
@@ -256,6 +239,6 @@ Open To:
 
 *"Build systems that don't wake you up at 3am."*
 
-![Footer](https://capsule-render.com/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer)
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer)
 
 </div>
