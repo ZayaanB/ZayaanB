@@ -193,28 +193,6 @@ An AI-powered clinical assistant automating patient intake with real-time comput
 
 ---
 
-### 🎯 Current Focus
-
-```yaml
-Learning:
-  - Distributed systems & database internals
-  - Applied ML infrastructure & context-engineering for AI tooling
-
-Building:
-  - Backend microservices ahead of FreshBooks internship
-  - Extensions to the Context Sync VS Code tool
-
-Exploring:
-  - Real-time computer vision applications
-  - Secure-by-default backend architecture patterns
-
-Open To:
-  - Software Engineering Internships / New Grad roles
-  - AI/ML Engineering opportunities
-```
-
----
-
 ### 📬 Connect
 
 [![Gmail](https://img.shields.io/badge/Gmail-6D28D9?style=flat-square&logo=gmail&logoColor=white)](mailto:zayaan1509@gmail.com)
