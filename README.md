@@ -20,17 +20,13 @@
 
 <br/>
 
-![Profile Views](https://komarev.com/ghpvc/?username=ZayaanB&color=6D28D9&style=flat-square&label=Profile+Views)
-![Followers](https://img.shields.io/github/followers/ZayaanB?color=6D28D9&style=flat-square&label=Followers)
-![Stars](https://img.shields.io/github/stars/ZayaanB?color=6D28D9&style=flat-square&label=Stars)
-
 </div>
 
 ---
 
 ### 🧠 About Me
 
-I'm a Computer Science student at the **University of Toronto** (Honours B.Sc., Co-op) building across the stack. From low-level systems in C++ to production Node/FastAPI applications and applied AI/ML tooling. I care about **reliability, performance, and clean developer experience**, whether that means shaving lock contention out of an embedded key-value store or cutting API failure rates in a production service by 85%+.
+I'm a Computer Science student at the **University of Toronto** (Honours B.Sc., Co-op) and 3x hackathon winner. I enjoy building across the stack, from low-level systems in C++ to production Node/FastAPI applications and applied AI/ML tooling. I care about **reliability, performance, and clean developer experience**, whether that means shaving lock contention out of an embedded key-value store or cutting API failure rates in a production service.
 
 
 **🎯 Open To:** Software Engineering Internships · Software Engineer · Software Developer · Full-Stack & Backend Engineering · AI/ML Engineering
@@ -141,7 +137,6 @@ An AI-powered clinical assistant automating patient intake with real-time comput
 - Restructured secret ingestion and eliminated hardcoded credentials across 3 core services, migrating to secure environment management
 - Optimized Meta OAuth token handling and storage architecture, reducing token refresh failures by 40%+
 - Reduced system crashes and failed API calls by 85%+ through robust error handling and timeout prevention
-- Implemented logging across onboarding and authentication flows to isolate bugs for new developer teams
 
 `Python` `OAuth` `Secrets Management` `Logging & Observability` `API Reliability`
 
