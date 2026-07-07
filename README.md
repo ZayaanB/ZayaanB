@@ -149,22 +149,6 @@ An AI-powered clinical assistant automating patient intake with real-time comput
 
 ---
 
-### 🏆 Achievements
-
-<div align="center">
-
-| Recognition | Details |
-|---|---|
-| 🥉 3rd Place, International | NASA Hunch — first Canadian team to compete |
-| 🏅 Top 10 Projects | GenAI Genesis — Clinical AI Assistant |
-| 🏆 Finalist | Hack Canada |
-| 🥉 3rd Place Overall | UTRA Hacks |
-| 📦 500+ Downloads | Context Sync Extension (VS Code Marketplace) |
-
-</div>
-
----
-
 ### 🐍 Contribution Snake
 
 <div align="center">
