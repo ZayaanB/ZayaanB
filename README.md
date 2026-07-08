@@ -120,7 +120,7 @@ An AI-powered clinical assistant automating patient intake with real-time comput
 
 ### 💼 Experience
 
-**Software Developer Intern (Incoming)** · FreshBooks
+**Software Developer Intern (Incoming Full-Stack)** · FreshBooks
 `Sept 2026 – Dec 2026` · Toronto, ON
 
 - Incoming co-op developing Python backend microservices and React UI for a platform serving 10M+ users.
