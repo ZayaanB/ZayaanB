@@ -123,20 +123,33 @@ An AI-powered clinical assistant automating patient intake with real-time comput
 **Software Engineer Intern (Incoming)** · FreshBooks
 `Sept 2026 – Dec 2026` · Toronto, ON
 
-- Incoming intern developing backend microservices in Python and UI components in React for 10M+ users
-- Set to deploy applications using Docker and Azure DevOps with RESTful APIs and MySQL/Postgres databases
-- Will collaborate in an agile team to automate testing, optimize data via Redis, and ship production features
+- Incoming intern to develop backend microservices in Python and UI components with React for 10M+ users.
+- Set to deploy applications using Docker and Azure DevOps with RESTful APIs and MySQL/Postgres databases.
+- Will collaborate in an agile team to automate testing, optimize data via Redis, and ship production features.
 
-`Python` `React` `Docker` `Azure DevOps` `MySQL/Postgres` `Redis`
+`Python` `React.js` `Docker` `Azure DevOps` `MySQL/Postgres` `Redis`
 
 <br/>
 
-**Software Engineer Intern** · KorraNet Creative
+**Software Engineer Intern (Backend AI)** · FlyRank AI
+`July 2026 – Sept 2026` · Toronto, ON
+
+- Built an embeddable widget platform to direct all form submissions to a dashboard by adding a script tag to the site.
+- Secured public endpoint with validation, rate limiting, spam filtering, and a geolocation fallback, passing 50+ tests.
+- Prevented duplicate charges under 50 concurrent requests by deduplicating billable events at the database level.
+- Synced Stripe billing records by processing subscription updates through secure, duplicate-proof webhooks, eliminating manual fixes.
+
+`JavaScript` `TypeScript` `Node.js` `React.js` `Sqlite` `Stripe`
+
+<br/>
+
+**Software Engineer Intern (Fullstack)** · KorraNet Creative
 `May 2026 – Present` · Winnipeg, MB (Remote)
 
-- Restructured secret ingestion and eliminated hardcoded credentials across 3 core services, migrating to secure environment management
-- Optimized Meta OAuth token handling and storage architecture, reducing token refresh failures by 40%+
-- Reduced system crashes and failed API calls by 85%+ through robust error handling and timeout prevention
+- Optimized Meta OAuth token handling and storage architecture, reducing token refresh failures by 40%+, ensuring reliable context availability for downstream AI model integrations.
+- Restructured secret ingestion and eliminated hardcoded secrets by migrating to secure environment management.
+- Reduced system crashes and failed API calls by 85%+ through adding API error handling and timeout prevention.
+- Implemented logging across onboarding and authentication flows to isolate bugs and support new developer teams.
 
 `Python` `OAuth` `Secrets Management` `Logging & Observability` `API Reliability`
 
