@@ -165,15 +165,6 @@ An AI-powered clinical assistant automating patient intake with real-time comput
 
 ---
 
-### 📬 Connect
-
-[![Gmail](https://img.shields.io/badge/Gmail-6D28D9?style=flat-square&logo=gmail&logoColor=white)](mailto:zayaan1509@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-4C1D95?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/zayaan-bhan)
-[![GitHub](https://img.shields.io/badge/GitHub-2E1065?style=flat-square&logo=github&logoColor=white)](https://github.com/ZayaanB)
-[![Portfolio](https://img.shields.io/badge/Portfolio-7C3AED?style=flat-square&logo=vercel&logoColor=white)](https://zayaanb.github.io/Zayaan/)
-
----
-
 <div align="center">
 
 *"Build systems that don't wake you up at 3am."*
