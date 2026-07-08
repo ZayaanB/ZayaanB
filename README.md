@@ -41,7 +41,7 @@ I'm a Computer Science student at the **University of Toronto** (Honours B.Sc., 
 
 **Frontend**
 
-![React](https://skillicons.dev/icons?i=react) ![Next.js](https://skillicons.dev/icons?i=nextjs)
+![React](https://skillicons.dev/icons?i=react)
 
 **Backend & Databases**
 
@@ -120,38 +120,36 @@ An AI-powered clinical assistant automating patient intake with real-time comput
 
 ### 💼 Experience
 
-**Software Engineer Intern (Incoming)** · FreshBooks
+**Software Developer Intern (Incoming)** · FreshBooks
 `Sept 2026 – Dec 2026` · Toronto, ON
 
-- Incoming intern to develop backend microservices in Python and UI components with React for 10M+ users.
-- Set to deploy applications using Docker and Azure DevOps with RESTful APIs and MySQL/Postgres databases.
-- Will collaborate in an agile team to automate testing, optimize data via Redis, and ship production features.
+- Incoming co-op developing Python backend microservices and React UI for a platform serving 10M+ users.
 
-`Python` `React.js` `Docker` `Azure DevOps` `MySQL/Postgres` `Redis`
+`Python` `React.js` `Docker` `Azure DevOps` `MySQL/Postgres` `GCP`
 
 <br/>
 
 **Software Engineer Intern (Backend AI)** · FlyRank AI
-`July 2026 – Sept 2026` · Toronto, ON
+`July 2026 – Present` · Toronto, ON
 
-- Built an embeddable widget platform to direct all form submissions to a dashboard by adding a script tag to the site.
-- Secured public endpoint with validation, rate limiting, spam filtering, and a geolocation fallback, passing 50+ tests.
+- Built a multi-tenant embeddable widget platform routing form submissions to a dashboard via a one-line script tag.
+- Secured public endpoint with validation, rate limiting, spam filtering, and a geolocation fallback, passing 80+ tests.
 - Prevented duplicate charges under 50 concurrent requests by deduplicating billable events at the database level.
-- Synced Stripe billing records by processing subscription updates through secure, duplicate-proof webhooks, eliminating manual fixes.
+- Synced Stripe payment updates through secure, idempotent webhooks, eliminating duplicate records and manual fixes.
 
-`JavaScript` `TypeScript` `Node.js` `React.js` `Sqlite` `Stripe`
+`TypeScript` `Node.js` `Express.js` `SQLite` `Stripe` `Zod`
 
 <br/>
 
-**Software Engineer Intern (Fullstack)** · KorraNet Creative
-`May 2026 – Present` · Winnipeg, MB (Remote)
+**Software Engineer Intern (Full-Stack)** · KorraNet Creative (Riipen Program)
+`May 2026 – July 2026` · Remote
 
-- Optimized Meta OAuth token handling and storage architecture, reducing token refresh failures by 40%+, ensuring reliable context availability for downstream AI model integrations.
-- Restructured secret ingestion and eliminated hardcoded secrets by migrating to secure environment management.
+- Optimized Meta OAuth token handling and storage, reducing token refresh failures by 40%+ for AI integrations.
+- Eliminated all hardcoded secrets across the codebase by restructuring ingestion into secure environment management.
 - Reduced system crashes and failed API calls by 85%+ through adding API error handling and timeout prevention.
-- Implemented logging across onboarding and authentication flows to isolate bugs and support new developer teams.
+- Implemented logging across onboarding and authentication flows to isolate bugs and reduce debugging time.
 
-`Python` `OAuth` `Secrets Management` `Logging & Observability` `API Reliability`
+`Python` `FastAPI` `OAuth` `Google Cloud Platform` `Logging & Observability` `API Reliability`
 
 <br/>
 
