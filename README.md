@@ -17,7 +17,6 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-4C1D95?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/zayaan-bhan)
 [![Email](https://img.shields.io/badge/Email-6D28D9?style=for-the-badge&logo=gmail&logoColor=white)](mailto:zayaan1509@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-2E1065?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ZayaanB)
-
 <br/>
 </div>
 
@@ -145,9 +144,10 @@ An AI-powered clinical assistant automating patient intake with real-time comput
 - Implemented logging across onboarding and authentication flows to isolate bugs and reduce debugging time.
 
 `Python` `FastAPI` `OAuth` `Google Cloud Platform` `Logging & Observability` `API Reliability`
-
 <br/>
+
 ---
+
 <div align="center">
 
 *"Build systems that don't wake you up at 3am."*
