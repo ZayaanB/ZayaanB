@@ -43,9 +43,9 @@ I'm a Computer Science student at the **University of Toronto** (Honours B.Sc., 
 
 ![React](https://skillicons.dev/icons?i=react)
 
-**Backend & Databases**
+**Frameworks & Databases**
 
-![FastAPI](https://skillicons.dev/icons?i=fastapi) ![Node.js](https://skillicons.dev/icons?i=nodejs) ![Flask](https://skillicons.dev/icons?i=flask) ![PostgreSQL](https://skillicons.dev/icons?i=postgres) ![Supabase](https://skillicons.dev/icons?i=supabase)
+![FastAPI](https://skillicons.dev/icons?i=fastapi) ![Node.js](https://skillicons.dev/icons?i=nodejs) ![Flask](https://skillicons.dev/icons?i=flask) ![PostgreSQL](https://skillicons.dev/icons?i=postgres) ![Supabase](https://skillicons.dev/icons?i=supabase)![React](https://skillicons.dev/icons?i=react)
 
 **Cloud, DevOps & Tooling**
 
