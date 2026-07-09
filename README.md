@@ -19,7 +19,6 @@
 [![GitHub](https://img.shields.io/badge/GitHub-2E1065?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ZayaanB)
 
 <br/>
-
 </div>
 
 ---
@@ -148,9 +147,7 @@ An AI-powered clinical assistant automating patient intake with real-time comput
 `Python` `FastAPI` `OAuth` `Google Cloud Platform` `Logging & Observability` `API Reliability`
 
 <br/>
-
 ---
-
 <div align="center">
 
 *"Build systems that don't wake you up at 3am."*
