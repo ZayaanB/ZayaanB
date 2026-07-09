@@ -120,7 +120,7 @@ An AI-powered clinical assistant automating patient intake with real-time comput
 
 ### 💼 Experience
 
-**Software Developer Intern (Incoming Full-Stack)** · FreshBooks
+**Software Engineer Intern (Incoming Full-Stack)** · FreshBooks
 `Sept 2026 – Dec 2026` · Toronto, ON
 
 - Incoming co-op developing Python backend microservices and React UI for a platform serving 10M+ users.
@@ -132,7 +132,7 @@ An AI-powered clinical assistant automating patient intake with real-time comput
 **Software Engineer Intern (Backend AI)** · FlyRank AI
 `July 2026 – Present` · Toronto, ON
 
-- Built a multi-tenant embeddable widget platform routing form submissions to a dashboard via a one-line script tag.
+- Built a multi-tenant embeddable widget platform, routing form submissions to a dashboard via a one-line script tag.
 - Secured public endpoint with validation, rate limiting, spam filtering, and a geolocation fallback, passing 80+ tests.
 - Prevented duplicate charges under 50 concurrent requests by deduplicating billable events at the database level.
 - Synced Stripe payment updates through secure, idempotent webhooks, eliminating duplicate records and manual fixes.
@@ -141,27 +141,17 @@ An AI-powered clinical assistant automating patient intake with real-time comput
 
 <br/>
 
-**Software Engineer Intern (Full-Stack)** · KorraNet Creative (Riipen Program)
+**Software Developer Intern (Full-Stack)** · KorraNet Creative (Riipen Program)
 `May 2026 – July 2026` · Remote
 
 - Optimized Meta OAuth token handling and storage, reducing token refresh failures by 40%+ for AI integrations.
-- Eliminated all hardcoded secrets across the codebase by restructuring ingestion into secure environment management.
 - Reduced system crashes and failed API calls by 85%+ through adding API error handling and timeout prevention.
+- Migrated hardcoded secrets to Firebase Secret Manager and implemented real-time secret ingestion for API calls.
 - Implemented logging across onboarding and authentication flows to isolate bugs and reduce debugging time.
 
 `Python` `FastAPI` `OAuth` `Google Cloud Platform` `Logging & Observability` `API Reliability`
 
 <br/>
-
----
-
-### 🐍 Contribution Snake
-
-<div align="center">
-
-![Snake animation](https://raw.githubusercontent.com/ZayaanB/ZayaanB/output/github-contribution-grid-snake.svg)
-
-</div>
 
 ---
 
