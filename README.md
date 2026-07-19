@@ -15,7 +15,7 @@
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-7C3AED?style=for-the-badge&logo=vercel&logoColor=white)](https://zayaanb.github.io/Zayaan/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-4C1D95?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/zayaan-bhan)
-[![Email](https://img.shields.io/badge/Email-6D28D9?style=for-the-badge&logo=gmail&logoColor=white)](mailto:zayaan1509@gmail.com)
+[![Email](https://img.shields.io/badge/Email-6D28D9?style=for-the-badge&logo=gmail&logoColor=white)](mailto:zayaan.bhanwadia@mail.utoronto.ca)
 <br/>
 </div>
 
@@ -117,8 +117,20 @@ An AI-powered clinical assistant automating patient intake with real-time comput
 `Sept 2026 – Dec 2026` · Toronto, ON
 
 - Incoming co-op developing Python backend microservices and React UI for a platform serving 10M+ users.
+- Will ship production code on a product team, deploying with Docker, Azure DevOps, and Google Cloud Platform.
 
 `Python` `React.js` `Docker` `Azure DevOps` `MySQL/Postgres` `GCP`
+
+<br/>
+
+**Autonomy Software Developer (Mapping & Planning)** · Formula Student Driverless
+`July 2026 – Present` · Toronto, ON
+- Developed mapping and path-planning software in C++/ROS2 for Canada’s first driverless FSAE car.
+- Built a FastSLAM pipeline fusing LiDAR, IMU, GPS, and odometry to localize the car within 15 cm of the optimal line.
+- Implemented Delaunay-based centerline and raceline planning to output low-latency, real-time trajectories to controls.
+- Validated and optimized algorithms across 20+ simulation and rosbag-replay runs to catch failures before track tests.
+
+`Python` `C++` `ROS2` `FoxGlove` 
 
 <br/>
 
@@ -135,7 +147,7 @@ An AI-powered clinical assistant automating patient intake with real-time comput
 <br/>
 
 **Software Developer Intern (Full-Stack)** · KorraNet Creative (Riipen Program)
-`May 2026 – July 2026` · Remote
+`May 2026 – Sept. 2026` · Remote
 
 - Optimized Meta OAuth token handling and storage, reducing token refresh failures by 40%+ for AI integrations.
 - Reduced system crashes and failed API calls by 85%+ through adding API error handling and timeout prevention.
