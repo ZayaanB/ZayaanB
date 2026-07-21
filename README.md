@@ -113,7 +113,7 @@ An AI-powered clinical assistant automating patient intake with real-time comput
 
 ### 💼 Experience
 
-**Software Engineer Intern (Incoming Full-Stack)** · FreshBooks
+**Full-Stack Software Engineer Intern (Incoming)** · FreshBooks
 `Sept 2026 – Dec 2026` · Toronto, ON
 
 - Incoming co-op developing Python backend microservices and React UI for a platform serving 10M+ users.
@@ -146,7 +146,7 @@ An AI-powered clinical assistant automating patient intake with real-time comput
 
 <br/>
 
-**Software Developer Intern (Full-Stack)** · KorraNet Creative (Riipen Program)
+**Full-Stack Software Developer Intern** · KorraNet Creative (Riipen Program)
 `May 2026 – Sept. 2026` · Remote
 
 - Optimized Meta OAuth token handling and storage, reducing token refresh failures by 40%+ for AI integrations.
