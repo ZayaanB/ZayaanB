@@ -38,11 +38,15 @@ I'm a Computer Science and Statistics student at the **University of Toronto** (
 
 **Frameworks & Databases**
 
-![FastAPI](https://skillicons.dev/icons?i=fastapi) ![Node.js](https://skillicons.dev/icons?i=nodejs) ![Flask](https://skillicons.dev/icons?i=flask) ![PostgreSQL](https://skillicons.dev/icons?i=postgres) ![Supabase](https://skillicons.dev/icons?i=supabase)![React](https://skillicons.dev/icons?i=react)
+![FastAPI](https://skillicons.dev/icons?i=fastapi) ![Node.js](https://skillicons.dev/icons?i=nodejs) ![Express.js](https://skillicons.dev/icons?i=express) ![Flask](https://skillicons.dev/icons?i=flask) ![PostgreSQL](https://skillicons.dev/icons?i=postgres) ![Supabase](https://skillicons.dev/icons?i=supabase)![React](https://skillicons.dev/icons?i=react)
 
 **Cloud, DevOps & Tooling**
 
-![Docker](https://skillicons.dev/icons?i=docker) ![Linux](https://skillicons.dev/icons?i=linux) ![Git](https://skillicons.dev/icons?i=git) ![GitHub](https://skillicons.dev/icons?i=github) ![GCP](https://skillicons.dev/icons?i=gcp) ![Vercel](https://skillicons.dev/icons?i=vercel) ![VS Code](https://skillicons.dev/icons?i=vscode)
+![Docker](https://skillicons.dev/icons?i=docker) ![Linux](https://skillicons.dev/icons?i=linux) ![Git](https://skillicons.dev/icons?i=git) ![GitHub](https://skillicons.dev/icons?i=github) ![GCP](https://skillicons.dev/icons?i=gcp) ![AWS](https://skillicons.dev/icons?i=aws) ![Azure](https://skillicons.dev/icons?i=azure) ![Vercel](https://skillicons.dev/icons?i=vercel) ![VS Code](https://skillicons.dev/icons?i=vscode)
+
+**Robotics & ML**
+
+![ROS 2](https://img.shields.io/badge/ROS%202-0284C7?style=flat-square&logo=ros&logoColor=white) ![YOLO](https://img.shields.io/badge/YOLO-0C4A6E?style=flat-square&logo=yolo&logoColor=white)
 
 ---
 
