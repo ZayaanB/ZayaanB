@@ -62,10 +62,10 @@ An embedded C++ database engineered for high-throughput concurrent access via sh
 | **Reliability** | Write-ahead log persistence for crash recovery |
 | **Repository** | [github.com/ZayaanB](https://github.com/ZayaanB) |
 
-- Built data sharding to eliminate global lock bottlenecks and improve throughput
-- Implemented shared locks enabling non-blocking reads across 4 threads while preventing write race conditions
-- Designed WAL-based persistence, writing updates to a log file before memory for crash durability
-- Created a background file compaction routine to reclaim disk space without pausing the application
+- Built an embedded C++ database with data sharding to prevent global lock bottlenecks and improve throughput
+- Implemented shared locks for non-blocking reads across 4 threads, preventing race conditions during writes
+- Created a file compaction routine to safely clean up keys, reducing disk usage by 45%+ without pausing the app
+- Designed data persistence by writing updates to a log file before memory to ensure crash recovery and durability
 
 </details>
 
@@ -73,19 +73,20 @@ An embedded C++ database engineered for high-throughput concurrent access via sh
 <summary><b>🔗 Context Sync Extension</b> — TypeScript / VS Code Extension API</summary>
 <br/>
 
-A VS Code extension automating AI chat context continuity across developer environments — 500+ downloads.
+A VS Code extension automating AI chat context continuity across developer environments — 600+ downloads.
 
 | | |
 |---|---|
 | **Stack** | TypeScript, VS Code Extension API |
-| **Scale** | 500+ downloads |
+| **Scale** | 600+ downloads |
 | **Integrations** | GitHub Copilot, OneDrive, Google Drive |
 | **Impact** | One-click environment setup, denser AI context per token |
 | **Repository** | [github.com/ZayaanB](https://github.com/ZayaanB) |
 
-- Automates AI chat context sharing to maintain workspace continuity across environments
-- Designed a graph-based Markdown schema to maximize context density per token in AI assistant sessions
-- Integrated GitHub Copilot, OneDrive, and Google Drive for automated syncing
+- Developed a VS Code extension with 600+ downloads that automates AI chat context sharing across environments
+- Implemented Dijkstra's search algorithm to select referenced sessions, resulting in a 25%+ reduction in token usage
+- Designed a graph-based Markdown schema to maximize context density per token across AI assistant sessions
+- Integrated GitHub Copilot, OneDrive, and Google Drive to automate syncing and enable one-click AI workspace setup
 
 </details>
 
@@ -113,48 +114,45 @@ An AI-powered clinical assistant automating patient intake with real-time comput
 
 ### 💼 Experience
 
-**Full-Stack Software Engineer Intern (Incoming)** · FreshBooks
+**Full-Stack Software Developer Intern (Incoming)** · FreshBooks
 `Sept 2026 – Dec 2026` · Toronto, ON
 
-- Incoming co-op developing Python backend microservices and React UI for a platform serving 10M+ users.
-- Will ship production code on a product team, deploying with Docker, Azure DevOps, and Google Cloud Platform.
+- Selected to join a product team developing Python/Ruby microservices and React interfaces supporting 10M+ users.
 
-`Python` `React.js` `Docker` `Azure DevOps` `MySQL/Postgres` `GCP`
+`Python` `Ruby` `React.js` `Microservices`
 
 <br/>
 
-**Autonomy Software Developer (Mapping & Planning)** · Formula Student Driverless
+**Autonomy Software Engineer (Mapping & Planning)** · University of Toronto Formula Racing – Driverless
 `July 2026 – Present` · Toronto, ON
-- Developed mapping and path-planning software in C++/ROS2 for Canada’s first driverless FSAE car.
-- Built a FastSLAM pipeline fusing LiDAR, IMU, GPS, and odometry to localize the car within 15 cm of the optimal line.
-- Implemented Delaunay-based centerline and raceline planning to output low-latency, real-time trajectories to controls.
-- Validated and optimized algorithms across 20+ simulation and rosbag-replay runs to catch failures before track tests.
+- Developed mapping and path-planning software in C++ and ROS 2 for Canada's first driverless FSAE car.
+- Built a SLAM pipeline that maps new tracks to within 18 cm of line using particle filters and graph optimization.
+- Redesigned the path planner to navigate sharp turns that stalled the legacy system, with 96% of plans on track in sim.
+- Enabled LiDAR-only planning, removing the camera neural network to cut ~20 ms of latency per planning cycle.
 
-`Python` `C++` `ROS2` `FoxGlove` 
+`Python` `C++` `ROS2` `LiDAR`
 
 <br/>
 
 **Software Engineer Intern (Backend AI)** · FlyRank AI
 `July 2026 – Present` · Toronto, ON
 
-- Built a multi-tenant embeddable widget platform, routing form submissions to a dashboard via a one-line script tag.
-- Secured public endpoint with validation, rate limiting, spam filtering, and a geolocation fallback, passing 80+ tests.
-- Prevented duplicate charges under 50 concurrent requests by deduplicating billable events at the database level.
-- Synced Stripe payment updates through secure, idempotent webhooks, eliminating duplicate records and manual fixes.
+- Built a centralized embeddable widget platform, routing form submissions to a dashboard via a one-line script tag.
+- Secured a public endpoint with validation, rate limiting, and geolocation checks, cutting spam by 80%.
+- Prevented duplicate charges under 50 concurrent requests by deduplicating payment events at the database level.
 
-`TypeScript` `Node.js` `Express.js` `SQLite` `Stripe` `Zod`
+`TypeScript` `Node.js` `Express.js` `SQLite` `Zod`
 
 <br/>
 
-**Full-Stack Software Developer Intern** · KorraNet Creative (Riipen Program)
-`May 2026 – Sept. 2026` · Remote
+**Full-Stack Software Developer Intern** · KorraNet Creative
+`May 2026 – July 2026` · Remote
 
 - Optimized Meta OAuth token handling and storage, reducing token refresh failures by 40%+ for AI integrations.
-- Reduced system crashes and failed API calls by 85%+ through adding API error handling and timeout prevention.
+- Reduced system crashes and failed API calls by 85%+ by adding API error handling and timeout prevention.
 - Migrated hardcoded secrets to Firebase Secret Manager and implemented real-time secret ingestion for API calls.
-- Implemented logging across onboarding and authentication flows to isolate bugs and reduce debugging time.
 
-`Python` `FastAPI` `OAuth` `Google Cloud Platform` `Logging & Observability` `API Reliability`
+`Python` `FastAPI` `OAuth` `Google Cloud Platform`
 <br/>
 
 ---
