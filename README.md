@@ -129,10 +129,11 @@ An AI-powered clinical assistant automating patient intake with real-time comput
 
 **Autonomy Software Engineer (Mapping & Planning)** · University of Toronto Formula Racing – Driverless
 `July 2026 – Present` · Toronto, ON
-- Developed mapping and path-planning software in C++ and ROS 2 for Canada's first driverless FSAE car.
+
+<!-- - Developed mapping and path-planning software in C++ and ROS 2 for Canada's first driverless FSAE car.
 - Built a SLAM pipeline that maps new tracks to within 18 cm of line using particle filters and graph optimization.
 - Redesigned the path planner to navigate sharp turns that stalled the legacy system, with 96% of plans on track in sim.
-- Enabled LiDAR-only planning, removing the camera neural network to cut ~20 ms of latency per planning cycle.
+- Enabled LiDAR-only planning, removing the camera neural network to cut ~20 ms of latency per planning cycle. -->
 
 `Python` `C++` `ROS2` `LiDAR`
 
