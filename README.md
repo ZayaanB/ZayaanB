@@ -53,23 +53,23 @@ I'm a Computer Science and Statistics student at the **University of Toronto** (
 ### 🚀 Featured Projects
 
 <details>
-<summary><b>🗃️ Embedded Key-Value Store</b> — C++ / POSIX Threads / Linux</summary>
+<summary><b>🗃️ Embedded Key-Value Store</b> — C++ / CMake / Multithreading / Linux</summary>
 <br/>
 
 An embedded C++ database engineered for high-throughput concurrent access via sharding and lock-free reads.
 
 | | |
 |---|---|
-| **Stack** | C++, POSIX Threads, Linux |
-| **Scale** | 4-thread concurrent read/write workloads |
+| **Stack** | C++, CMake, Multithreading, Linux |
+| **Scale** | 16-way sharded locking, 5x read throughput (8M → 40M ops/sec) |
 | **Performance** | 45%+ disk usage reduction via compaction |
-| **Reliability** | Write-ahead log persistence for crash recovery |
+| **Reliability** | Checksummed write-ahead log for crash recovery |
 | **Repository** | [github.com/ZayaanB](https://github.com/ZayaanB) |
 
-- Built an embedded C++ database with data sharding to prevent global lock bottlenecks and improve throughput
-- Implemented shared locks for non-blocking reads across 4 threads, preventing race conditions during writes
+- Built an embedded database with 16-way sharded locking, boosting read throughput 5x (8M to 40M ops/sec)
+- Implemented reader-writer locks so reads proceed during disk writes, preventing race conditions across 16 threads
 - Created a file compaction routine to safely clean up keys, reducing disk usage by 45%+ without pausing the app
-- Designed data persistence by writing updates to a log file before memory to ensure crash recovery and durability
+- Guaranteed crash recovery by persisting every update to a checksummed write-ahead log before applying changes
 
 </details>
 
@@ -88,9 +88,9 @@ A VS Code extension automating AI chat context continuity across developer envir
 | **Repository** | [github.com/ZayaanB](https://github.com/ZayaanB) |
 
 - Developed a VS Code extension with 600+ downloads that automates AI chat context sharing across environments
-- Implemented Dijkstra's search algorithm to select referenced sessions, resulting in a 25%+ reduction in token usage
-- Designed a graph-based Markdown schema to maximize context density per token across AI assistant sessions
-- Integrated GitHub Copilot, OneDrive, and Google Drive to automate syncing and enable one-click AI workspace setup
+- Reduced token use 25%+ by modeling chats as a weighted graph and selecting context via shortest-path search
+- Designed a Markdown schema that packs more context into fewer tokens across AI assistant sessions
+- Integrated GitHub Copilot, Google Drive, and OneDrive to automate syncing and enable one-click AI workspace setup
 
 </details>
 
@@ -129,11 +129,10 @@ An AI-powered clinical assistant automating patient intake with real-time comput
 
 **Autonomy Software Engineer (Mapping & Planning)** · University of Toronto Formula Racing – Driverless
 `July 2026 – Present` · Toronto, ON
-
-<!-- - Developed mapping and path-planning software in C++ and ROS 2 for Canada's first driverless FSAE car.
-- Built a SLAM pipeline that maps new tracks to within 18 cm of line using particle filters and graph optimization.
-- Redesigned the path planner to navigate sharp turns that stalled the legacy system, with 96% of plans on track in sim.
-- Enabled LiDAR-only planning, removing the camera neural network to cut ~20 ms of latency per planning cycle. -->
+- Developed mapping and path-planning software in C++ and ROS 2 for Canada's first driverless FSAE car.
+- Built a SLAM pipeline mapping new racetracks to within 18 cm accuracy using Kalman filters and factor graphs.
+- Rebuilt the path planner to keep 96% of paths on track in simulation, fixing sharp turns that stalled the old system.
+- Cut ~20 ms of planning latency by switching to LiDAR-only planning and removing the camera neural network.
 
 `Python` `C++` `ROS2` `LiDAR`
 
@@ -144,7 +143,7 @@ An AI-powered clinical assistant automating patient intake with real-time comput
 
 - Built a centralized embeddable widget platform, routing form submissions to a dashboard via a one-line script tag.
 - Secured a public endpoint with validation, rate limiting, and geolocation checks, cutting spam by 80%.
-- Prevented duplicate charges under 50 concurrent requests by deduplicating payment events at the database level.
+- Prevented duplicate charges under 50+ simultaneous requests by deduplicating payment events in the database.
 
 `TypeScript` `Node.js` `Express.js` `SQLite` `Zod`
 
@@ -155,7 +154,7 @@ An AI-powered clinical assistant automating patient intake with real-time comput
 
 - Optimized Meta OAuth token handling and storage, reducing token refresh failures by 40%+ for AI integrations.
 - Reduced system crashes and failed API calls by 85%+ by adding API error handling and timeout prevention.
-- Migrated hardcoded secrets to Firebase Secret Manager and implemented real-time secret ingestion for API calls.
+- Migrated hardcoded secrets to Firebase Secret Manager, enabling key rotation without redeploying services.
 
 `Python` `FastAPI` `OAuth` `Google Cloud Platform`
 <br/>
