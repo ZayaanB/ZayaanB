@@ -77,17 +77,17 @@ An embedded C++ database engineered for high-throughput concurrent access via sh
 <summary><b>🔗 Context Sync Extension</b> — TypeScript / VS Code Extension API</summary>
 <br/>
 
-A VS Code extension automating AI chat context continuity across developer environments — 600+ downloads.
+A VS Code extension automating AI chat context continuity across developer environments — 700+ downloads.
 
 | | |
 |---|---|
 | **Stack** | TypeScript, VS Code Extension API |
-| **Scale** | 600+ downloads |
+| **Scale** | 700+ downloads |
 | **Integrations** | GitHub Copilot, OneDrive, Google Drive |
 | **Impact** | One-click environment setup, denser AI context per token |
 | **Repository** | [github.com/ZayaanB](https://github.com/ZayaanB) |
 
-- Developed a VS Code extension with 600+ downloads that automates AI chat context sharing across environments
+- Developed a VS Code extension with 700+ downloads that automates AI chat context sharing across environments
 - Reduced token use 25%+ by modeling chats as a weighted graph and selecting context via shortest-path search
 - Designed a Markdown schema that packs more context into fewer tokens across AI assistant sessions
 - Integrated GitHub Copilot, Google Drive, and OneDrive to automate syncing and enable one-click AI workspace setup
@@ -118,7 +118,7 @@ An AI-powered clinical assistant automating patient intake with real-time comput
 
 ### 💼 Experience
 
-**Full-Stack Software Developer Intern (Incoming)** · FreshBooks
+**Full-Stack Software Developer Intern** · FreshBooks
 `Sept 2026 – Dec 2026` · Toronto, ON
 
 - Selected to join a product team developing Python/Ruby microservices and React interfaces supporting 10M+ users.
@@ -139,7 +139,7 @@ An AI-powered clinical assistant automating patient intake with real-time comput
 <br/>
 
 **Software Engineer Intern (Backend AI)** · FlyRank AI
-`July 2026 – Present` · Toronto, ON
+`July 2026 – Sept 2026` · Toronto, ON
 
 - Built a centralized embeddable widget platform, routing form submissions to a dashboard via a one-line script tag.
 - Secured a public endpoint with validation, rate limiting, and geolocation checks, cutting spam by 80%.
