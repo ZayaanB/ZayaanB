@@ -26,7 +26,7 @@
 I'm a Computer Science and Statistics student at the **University of Toronto** (Honours B.Sc., Co-op) and a 3x hackathon winner. I enjoy building across the stack, from low-level systems in C++ to production Node/FastAPI applications and applied AI/ML tooling. I care about **reliability, performance, and clean developer experience**, whether that means shaving lock contention out of an embedded key-value store or cutting API failure rates in a production service.
 
 
-**🎯 Open To:** Software Engineering Internships · Software Engineer · Software Developer · Full-Stack & Backend Engineering · AI/ML Engineering
+**Open To:** Software Engineering Internships · Software Engineer · Software Developer · Full-Stack & Backend Engineering · AI/ML Engineering
 
 ---
 
@@ -50,7 +50,7 @@ I'm a Computer Science and Statistics student at the **University of Toronto** (
 
 ---
 
-### 🚀 Featured Projects
+### 🚀 Projects
 
 <!-- NOTE: Keep this project's stack, metrics, and bullets in sync with Zayaan's latest resume unless he says otherwise. -->
 <details>
@@ -137,8 +137,6 @@ An AI-powered clinical assistant automating patient intake with real-time comput
 - Developed mapping and path-planning software in C++ and ROS 2 for Canada's first driverless FSAE car.
 - Built a SLAM pipeline mapping new racetracks to within 18 cm accuracy using Kalman filters and factor graphs.
 - Rebuilt the path planner to keep 96% of paths on track in simulation, fixing sharp turns that stalled the old system.
-- Cut ~20 ms of planning latency by switching to LiDAR-only planning and removing the camera neural network.
-
 `Python` `C++` `ROS2` `LiDAR`
 
 <br/>
