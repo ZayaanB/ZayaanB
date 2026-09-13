@@ -3,7 +3,7 @@
 ![Header](https://capsule-render.vercel.app/api?type=waving&color=0:38BDF8,50:0EA5E9,100:0369A1&height=220&section=header&text=Zayaan%20Bhanwadia&fontSize=42&fontColor=E0F2FE&animation=fadeIn&fontAlignY=38&desc=Software%20Engineer%20%7C%20Full%20Stack%20%2B%20AI/ML&descAlignY=55&descSize=18)
 
 <a href="https://github.com/ZayaanB">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=38BDF8&center=true&vCenter=true&width=560&lines=Full-Stack+Software+Engineer;University+of+Toronto+%E2%80%94+CS+%2B+Stats" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=38BDF8&center=true&vCenter=true&width=560&lines=Full-Stack+Engineer+%7C+Systems+%2B+AI%2FML;University+of+Toronto+%E2%80%94+CS+%2B+Stats" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -38,20 +38,21 @@ I'm a Computer Science and Statistics student at the **University of Toronto** (
 
 **Frameworks & Databases**
 
-![FastAPI](https://skillicons.dev/icons?i=fastapi) ![Node.js](https://skillicons.dev/icons?i=nodejs) ![Express.js](https://skillicons.dev/icons?i=express) ![Flask](https://skillicons.dev/icons?i=flask) ![PostgreSQL](https://skillicons.dev/icons?i=postgres) ![Supabase](https://skillicons.dev/icons?i=supabase)![React](https://skillicons.dev/icons?i=react)
+![FastAPI](https://skillicons.dev/icons?i=fastapi) ![Node.js](https://skillicons.dev/icons?i=nodejs) ![Express.js](https://skillicons.dev/icons?i=express) ![Ember.js](https://skillicons.dev/icons?i=ember) ![Flask](https://skillicons.dev/icons?i=flask) ![PostgreSQL](https://skillicons.dev/icons?i=postgres) ![Supabase](https://skillicons.dev/icons?i=supabase)![React](https://skillicons.dev/icons?i=react)
 
 **Cloud, DevOps & Tooling**
 
-![Docker](https://skillicons.dev/icons?i=docker) ![Linux](https://skillicons.dev/icons?i=linux) ![Git](https://skillicons.dev/icons?i=git) ![GitHub](https://skillicons.dev/icons?i=github) ![GCP](https://skillicons.dev/icons?i=gcp) ![AWS](https://skillicons.dev/icons?i=aws) ![Azure](https://skillicons.dev/icons?i=azure) ![Vercel](https://skillicons.dev/icons?i=vercel) ![VS Code](https://skillicons.dev/icons?i=vscode)
+![Docker](https://skillicons.dev/icons?i=docker) ![Linux](https://skillicons.dev/icons?i=linux) ![Git](https://skillicons.dev/icons?i=git) ![GitHub](https://skillicons.dev/icons?i=github) ![GCP](https://skillicons.dev/icons?i=gcp) ![AWS](https://skillicons.dev/icons?i=aws) ![Azure](https://skillicons.dev/icons?i=azure) ![RabbitMQ](https://skillicons.dev/icons?i=rabbitmq) ![Vercel](https://skillicons.dev/icons?i=vercel) ![VS Code](https://skillicons.dev/icons?i=vscode)
 
 **Robotics & ML**
 
-![ROS 2](https://img.shields.io/badge/ROS%202-0284C7?style=flat-square&logo=ros&logoColor=white) ![YOLO](https://img.shields.io/badge/YOLO-0C4A6E?style=flat-square&logo=yolo&logoColor=white)
+![ROS 2](https://img.shields.io/badge/ROS%202-0284C7?style=flat-square&logo=ros&logoColor=white) ![YOLO](https://img.shields.io/badge/YOLO-0C4A6E?style=flat-square&logo=yolo&logoColor=white) ![Ruby](https://img.shields.io/badge/Ruby-0EA5E9?style=flat-square&logo=ruby&logoColor=white)
 
 ---
 
 ### 🚀 Featured Projects
 
+<!-- NOTE: Keep this project's stack, metrics, and bullets in sync with Zayaan's latest resume unless he says otherwise. -->
 <details>
 <summary><b>🗃️ Embedded Key-Value Store</b> — C++ / CMake / Multithreading / Linux</summary>
 <br/>
@@ -73,6 +74,7 @@ An embedded C++ database engineered for high-throughput concurrent access via sh
 
 </details>
 
+<!-- NOTE: Keep this project's stack, metrics, and bullets in sync with Zayaan's latest resume unless he says otherwise. -->
 <details>
 <summary><b>🔗 Context Sync Extension</b> — TypeScript / VS Code Extension API</summary>
 <br/>
@@ -83,17 +85,16 @@ A VS Code extension automating AI chat context continuity across developer envir
 |---|---|
 | **Stack** | TypeScript, VS Code Extension API |
 | **Scale** | 700+ downloads |
-| **Integrations** | GitHub Copilot, OneDrive, Google Drive |
-| **Impact** | One-click environment setup, denser AI context per token |
+| **Performance** | 25%+ token-use reduction, 30%+ summary compaction |
 | **Repository** | [github.com/ZayaanB](https://github.com/ZayaanB) |
 
 - Developed a VS Code extension with 700+ downloads that automates AI chat context sharing across environments
-- Reduced token use 25%+ by modeling chats as a weighted graph and selecting context via shortest-path search
-- Designed a Markdown schema that packs more context into fewer tokens across AI assistant sessions
-- Integrated GitHub Copilot, Google Drive, and OneDrive to automate syncing and enable one-click AI workspace setup
+- Reduced token use by 25%+ by modelling chats as a weighted graph and selecting context via shortest-path search
+- Compacted chat summaries by 30%+ by designing a Markdown schema to pack more context into fewer tokens
 
 </details>
 
+<!-- NOTE: Keep this Clinical AI Assistant project on the README even if it's not listed on the current resume — Zayaan wants it retained regardless of resume updates. -->
 <details>
 <summary><b>🏥 Clinical AI Assistant</b> — Python / SQL / OpenCV — Top 10 @ GenAI Genesis</summary>
 <br/>
@@ -118,15 +119,19 @@ An AI-powered clinical assistant automating patient intake with real-time comput
 
 ### 💼 Experience
 
-**Full-Stack Software Developer Intern** · FreshBooks
+**Software Developer Intern (Full Stack)** · FreshBooks
 `Sept 2026 – Dec 2026` · Toronto, ON
 
-- Selected to join a product team developing Python/Ruby microservices and React interfaces supporting 10M+ users.
+- Migrated 10+ legacy Flask endpoints to centralized FastAPI services, modernizing core banking infrastructure.
+- Refactored banking locks, enabling concurrent updates across 5+ financial record types without cross-entity blocking.
+- Extended SQLAlchemy models and APIs with consent-expiry tracking across 2 bank connection providers.
+- Unified Plaid and Yodlee flows across backend services and Ember.js, supporting staged rollout to 5,000+ users.
 
-`Python` `Ruby` `React.js` `Microservices`
+`Python` `FastAPI` `Flask` `SQLAlchemy` `Ember.js`
 
 <br/>
 
+<!-- NOTE: Keep the 4th bullet here (LiDAR-only latency cut) even if it's dropped from the current resume — Zayaan wants it retained regardless of resume updates. -->
 **Autonomy Software Engineer (Mapping & Planning)** · University of Toronto Formula Racing – Driverless
 `July 2026 – Present` · Toronto, ON
 - Developed mapping and path-planning software in C++ and ROS 2 for Canada's first driverless FSAE car.
@@ -149,7 +154,7 @@ An AI-powered clinical assistant automating patient intake with real-time comput
 
 <br/>
 
-**Full-Stack Software Developer Intern** · KorraNet Creative
+**Software Developer Intern (Full Stack)** · KorraNet Creative
 `May 2026 – July 2026` · Remote
 
 - Optimized Meta OAuth token handling and storage, reducing token refresh failures by 40%+ for AI integrations.
