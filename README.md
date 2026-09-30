@@ -38,15 +38,15 @@ I'm a Computer Science and Statistics student at the **University of Toronto** (
 
 **Frameworks & Databases**
 
-![FastAPI](https://skillicons.dev/icons?i=fastapi) ![Node.js](https://skillicons.dev/icons?i=nodejs) ![Express.js](https://skillicons.dev/icons?i=express) ![Ember.js](https://skillicons.dev/icons?i=ember) ![Flask](https://skillicons.dev/icons?i=flask) ![PostgreSQL](https://skillicons.dev/icons?i=postgres) ![Supabase](https://skillicons.dev/icons?i=supabase)![React](https://skillicons.dev/icons?i=react)
+![FastAPI](https://skillicons.dev/icons?i=fastapi) ![Node.js](https://skillicons.dev/icons?i=nodejs) ![Express.js](https://skillicons.dev/icons?i=express) ![Ember.js](https://skillicons.dev/icons?i=ember) ![PostgreSQL](https://skillicons.dev/icons?i=postgres) ![MongoDB](https://skillicons.dev/icons?i=mongodb) ![Supabase](https://skillicons.dev/icons?i=supabase)![React](https://skillicons.dev/icons?i=react)
 
 **Cloud, DevOps & Tooling**
 
-![Docker](https://skillicons.dev/icons?i=docker) ![Linux](https://skillicons.dev/icons?i=linux) ![Git](https://skillicons.dev/icons?i=git) ![GitHub](https://skillicons.dev/icons?i=github) ![GCP](https://skillicons.dev/icons?i=gcp) ![AWS](https://skillicons.dev/icons?i=aws) ![Azure](https://skillicons.dev/icons?i=azure) ![RabbitMQ](https://skillicons.dev/icons?i=rabbitmq) ![Vercel](https://skillicons.dev/icons?i=vercel) ![VS Code](https://skillicons.dev/icons?i=vscode)
+![Docker](https://skillicons.dev/icons?i=docker) ![Linux](https://skillicons.dev/icons?i=linux) ![Git](https://skillicons.dev/icons?i=git) ![GitHub](https://skillicons.dev/icons?i=github) ![GCP](https://skillicons.dev/icons?i=gcp) ![AWS](https://skillicons.dev/icons?i=aws) ![Azure](https://skillicons.dev/icons?i=azure) ![Vercel](https://skillicons.dev/icons?i=vercel) ![VS Code](https://skillicons.dev/icons?i=vscode)
 
-**Robotics & ML**
+**Robotics**
 
-![ROS 2](https://img.shields.io/badge/ROS%202-0284C7?style=flat-square&logo=ros&logoColor=white) ![YOLO](https://img.shields.io/badge/YOLO-0C4A6E?style=flat-square&logo=yolo&logoColor=white) ![Ruby](https://img.shields.io/badge/Ruby-0EA5E9?style=flat-square&logo=ruby&logoColor=white)
+![ROS 2](https://img.shields.io/badge/ROS%202-0284C7?style=flat-square&logo=ros&logoColor=white)
 
 ---
 
@@ -70,7 +70,7 @@ An embedded C++ database engineered for high-throughput concurrent access via sh
 - Built an embedded database with 16-way sharded locking, boosting read throughput 5x (8M to 40M ops/sec)
 - Implemented reader-writer locks so reads proceed during disk writes, preventing race conditions across 16 threads
 - Created a file compaction routine to safely clean up keys, reducing disk usage by 45%+ without pausing the app
-- Guaranteed crash recovery by persisting every update to a checksummed write-ahead log before applying changes
+- Implemented crash recovery by persisting every update to a checksummed write-ahead log before applying changes
 
 </details>
 
@@ -122,13 +122,13 @@ An AI-powered clinical assistant automating patient intake with real-time comput
 **Software Developer Intern (Full Stack)** · FreshBooks
 `Sept 2026 – Dec 2026` · Toronto, ON
 
-- Migrated 10+ legacy Flask endpoints to centralized FastAPI services, modernizing core banking infrastructure.
-- Reduced invoice email latency by 1–3s by decoupling PDF generation across services with GCS-backed event delivery.
 - Accelerated bank connections page loads by 86% (700ms to 100ms) by removing an inactive-bank API fetch.
+- Reduced invoice email latency by 1–3s by decoupling PDF generation across services with GCS-backed event delivery.
 - Improved backend latency by 17% across key endpoints by caching repeated invoice, expense, and category lookups.
+- Enabled proactive bank reconnection warnings by tracking Yodlee consent expiry across webhooks, storage, and APIs.
 - Unified Plaid and Yodlee bank connections across backend services and Ember for staged rollout to 100% of users.
 
-`Python` `FastAPI` `Flask` `Ember.js` `GCP`
+`Python` `FastAPI` `Ember.js` `GCP`
 
 <br/>
 
@@ -136,8 +136,9 @@ An AI-powered clinical assistant automating patient intake with real-time comput
 **Autonomy Software Engineer (Mapping & Planning)** · University of Toronto Formula Racing – Driverless
 `July 2026 – Present` · Toronto, ON
 - Developed mapping and path-planning software in C++ and ROS 2 for Canada's first driverless FSAE car.
-- Built ego-aligned track corridors from quintic splines using arc-length sampling across a configurable 15 m horizon.
 - Replaced FastSLAM with EKF-SLAM, reducing localization compute time by 30% while maintaining accuracy.
+- Built ego-aligned track corridors from quintic splines using arc-length sampling across a configurable 15 m horizon.
+- Expanded simulation data collection and monitoring by integrating 8 sensors, including IMU, wheel-speed, and GPS.
 - Cut ~20 ms of planning latency by switching to LiDAR-only planning and removing the camera neural network.
 
 `Python` `C++` `ROS2` `LiDAR`
@@ -147,9 +148,9 @@ An AI-powered clinical assistant automating patient intake with real-time comput
 **Software Engineer Intern (Backend AI)** · FlyRank AI
 `July 2026 – Sept 2026` · Toronto, ON
 
+- Prevented duplicate charges under 50+ simultaneous requests by deduplicating payment events in the database.
 - Built a centralized embeddable widget platform, routing form submissions to a dashboard via a one-line script tag.
 - Secured a public endpoint with validation, rate limiting, and geolocation checks, cutting spam by 80%.
-- Prevented duplicate charges under 50+ simultaneous requests by deduplicating payment events in the database.
 
 `TypeScript` `Node.js` `Express.js` `SQLite` `Zod`
 
@@ -159,8 +160,7 @@ An AI-powered clinical assistant automating patient intake with real-time comput
 `May 2026 – July 2026` · Remote
 
 - Optimized Meta OAuth token handling and storage, reducing token refresh failures by 40%+ for AI integrations.
-- Reduced system crashes and failed API calls by 85%+ by adding API error handling and timeout prevention.
-- Migrated hardcoded secrets to Firebase Secret Manager, enabling key rotation without redeploying services.
+- Reduced system crashes and failed API calls by 85%+ by adding error handling and retries for failed requests.
 
 `Python` `FastAPI` `OAuth` `Google Cloud Platform`
 <br/>
