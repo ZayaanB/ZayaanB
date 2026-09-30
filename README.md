@@ -1,6 +1,6 @@
 <div align="center">
 
-![Header](https://capsule-render.vercel.app/api?type=waving&color=0:38BDF8,50:0EA5E9,100:0369A1&height=220&section=header&text=Zayaan%20Bhanwadia&fontSize=42&fontColor=E0F2FE&animation=fadeIn&fontAlignY=38&desc=Software%20Engineer%20%7C%20AI/ML&descAlignY=55&descSize=18)
+![Header](https://capsule-render.vercel.app/api?type=waving&color=0:38BDF8,50:0EA5E9,100:0369A1&height=220&section=header&text=Zayaan%20Bhanwadia&fontSize=42&fontColor=E0F2FE&animation=fadeIn&fontAlignY=38&desc=Software%20Engineer%20%7C%20Full%20Stack%20%2B%20AI/ML&descAlignY=55&descSize=18)
 
 <a href="https://github.com/ZayaanB">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=38BDF8&center=true&vCenter=true&width=560&lines=Full-Stack+Engineer+%7C+Systems+%2B+AI%2FML;University+of+Toronto+%E2%80%94+CS+%2B+Stats" alt="Typing SVG" />
@@ -26,7 +26,7 @@
 I'm a Computer Science and Statistics student at the **University of Toronto** (Honours B.Sc., Co-op) and a 3x hackathon winner. I enjoy building across the stack, from low-level systems in C++ to production Node/FastAPI applications and applied AI/ML tooling. I care about **reliability, performance, and clean developer experience**, whether that means shaving lock contention out of an embedded key-value store or cutting API failure rates in a production service.
 
 
-**Open To:** Software Engineering Internships · Software Engineer · Software Developer · Full-Stack & Backend Engineering · AI/ML Engineering
+**🎯 Open To:** Software Engineering Internships · Software Engineer · Software Developer · Full-Stack & Backend Engineering · AI/ML Engineering
 
 ---
 
@@ -50,7 +50,7 @@ I'm a Computer Science and Statistics student at the **University of Toronto** (
 
 ---
 
-### 🚀 Projects
+### 🚀 Featured Projects
 
 <!-- NOTE: Keep this project's stack, metrics, and bullets in sync with Zayaan's latest resume unless he says otherwise. -->
 <details>
@@ -79,16 +79,16 @@ An embedded C++ database engineered for high-throughput concurrent access via sh
 <summary><b>🔗 Context Sync Extension</b> — TypeScript / VS Code Extension API</summary>
 <br/>
 
-A VS Code extension automating AI chat context continuity across developer environments — 700+ downloads.
+A VS Code extension automating AI chat context continuity across developer environments — 750+ downloads.
 
 | | |
 |---|---|
 | **Stack** | TypeScript, VS Code Extension API |
-| **Scale** | 700+ downloads |
+| **Scale** | 750+ downloads |
 | **Performance** | 25%+ token-use reduction, 30%+ summary compaction |
 | **Repository** | [github.com/ZayaanB](https://github.com/ZayaanB) |
 
-- Developed a VS Code extension with 700+ downloads that automates AI chat context sharing across environments
+- Developed a VS Code extension with 750+ downloads that automates AI chat context sharing across environments
 - Reduced token use by 25%+ by modelling chats as a weighted graph and selecting context via shortest-path search
 - Compacted chat summaries by 30%+ by designing a Markdown schema to pack more context into fewer tokens
 
@@ -123,11 +123,12 @@ An AI-powered clinical assistant automating patient intake with real-time comput
 `Sept 2026 – Dec 2026` · Toronto, ON
 
 - Migrated 10+ legacy Flask endpoints to centralized FastAPI services, modernizing core banking infrastructure.
-- Refactored banking locks, enabling concurrent updates across 5+ financial record types without cross-entity blocking.
-- Extended SQLAlchemy models and APIs with consent-expiry tracking across 2 bank connection providers.
-- Unified Plaid and Yodlee flows across backend services and Ember.js, supporting staged rollout to 5,000+ users.
+- Reduced invoice email latency by 1–3s by decoupling PDF generation across services with GCS-backed event delivery.
+- Accelerated bank connections page loads by 86% (700ms to 100ms) by removing an inactive-bank API fetch.
+- Improved backend latency by 17% across key endpoints by caching repeated invoice, expense, and category lookups.
+- Unified Plaid and Yodlee bank connections across backend services and Ember for staged rollout to 100% of users.
 
-`Python` `FastAPI` `Flask` `SQLAlchemy` `Ember.js`
+`Python` `FastAPI` `Flask` `Ember.js` `GCP`
 
 <br/>
 
@@ -135,8 +136,10 @@ An AI-powered clinical assistant automating patient intake with real-time comput
 **Autonomy Software Engineer (Mapping & Planning)** · University of Toronto Formula Racing – Driverless
 `July 2026 – Present` · Toronto, ON
 - Developed mapping and path-planning software in C++ and ROS 2 for Canada's first driverless FSAE car.
-- Built a SLAM pipeline mapping new racetracks to within 18 cm accuracy using Kalman filters and factor graphs.
-- Rebuilt the path planner to keep 96% of paths on track in simulation, fixing sharp turns that stalled the old system.
+- Built ego-aligned track corridors from quintic splines using arc-length sampling across a configurable 15 m horizon.
+- Replaced FastSLAM with EKF-SLAM, reducing localization compute time by 30% while maintaining accuracy.
+- Cut ~20 ms of planning latency by switching to LiDAR-only planning and removing the camera neural network.
+
 `Python` `C++` `ROS2` `LiDAR`
 
 <br/>
