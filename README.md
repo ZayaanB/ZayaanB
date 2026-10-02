@@ -124,7 +124,7 @@ An AI-powered clinical assistant automating patient intake with real-time comput
 
 - Accelerated bank connections page loads by 86% (700ms to 100ms) by removing an inactive-bank API fetch.
 - Reduced invoice email latency by 1–3s by decoupling PDF generation across services with GCS-backed event delivery.
-- Improved backend latency by 17% across key endpoints by caching repeated invoice, expense, and category lookups.
+- Improved backend execution speed by 13.6x across 20 benchmark calls by caching metadata and invoice lookups.
 - Enabled proactive bank reconnection warnings by tracking Yodlee consent expiry across webhooks, storage, and APIs.
 - Unified Plaid and Yodlee bank connections across backend services and Ember for staged rollout to 100% of users.
 
