@@ -139,7 +139,6 @@ An AI-powered clinical assistant automating patient intake with real-time comput
 - Replaced FastSLAM with EKF-SLAM, reducing localization compute time by 30% while maintaining accuracy.
 - Built ego-aligned track corridors from quintic splines using arc-length sampling across a configurable 15 m horizon.
 - Expanded simulation data collection and monitoring by integrating 8 sensors, including IMU, wheel-speed, and GPS.
-- Cut ~20 ms of planning latency by switching to LiDAR-only planning and removing the camera neural network.
 
 `Python` `C++` `ROS2` `LiDAR`
 
