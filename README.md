@@ -3,7 +3,7 @@
 ![Header](https://capsule-render.vercel.app/api?type=waving&color=0:38BDF8,50:0EA5E9,100:0369A1&height=220&section=header&text=Zayaan%20Bhanwadia&fontSize=42&fontColor=E0F2FE&animation=fadeIn&fontAlignY=38&desc=Software%20Engineer%20%7C%20Full%20Stack%20%2B%20AI/ML&descAlignY=55&descSize=18)
 
 <a href="https://github.com/ZayaanB">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=38BDF8&center=true&vCenter=true&width=560&lines=Software+Engineer+%7C+Systems+%2B+AI%2FML;University+of+Toronto+%E2%80%94+CS+%2B+Stats" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=38BDF8&center=true&vCenter=true&width=560&lines=Full-Stack+Engineer+%7C+Systems+%2B+AI%2FML;University+of+Toronto+%E2%80%94+CS+%2B+Stats" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -14,6 +14,7 @@
 <br/>
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-0EA5E9?style=for-the-badge&logo=vercel&logoColor=white)](https://zayaanb.github.io/Zayaan/)
+[![Resume](https://img.shields.io/badge/Resume-0EA5E9?style=for-the-badge&logo=readdotcv&logoColor=white)](https://github.com/ZayaanB/ZayaanB/blob/main/Zayaan_Bhanwadia_Resume.pdf)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0C4A6E?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/zayaan-bhan)
 [![Email](https://img.shields.io/badge/Email-0284C7?style=for-the-badge&logo=gmail&logoColor=white)](mailto:zayaan.bhanwadia07@gmail.com)
 <br/>
@@ -38,7 +39,7 @@ I'm a Computer Science and Statistics student at the **University of Toronto** (
 
 **Frameworks & Databases**
 
-![FastAPI](https://skillicons.dev/icons?i=fastapi) ![Node.js](https://skillicons.dev/icons?i=nodejs) ![Express.js](https://skillicons.dev/icons?i=express) ![Ember.js](https://skillicons.dev/icons?i=ember) ![PostgreSQL](https://skillicons.dev/icons?i=postgres) ![MongoDB](https://skillicons.dev/icons?i=mongodb) ![Supabase](https://skillicons.dev/icons?i=supabase)![React](https://skillicons.dev/icons?i=react)
+![FastAPI](https://skillicons.dev/icons?i=fastapi) ![Django](https://skillicons.dev/icons?i=django) ![Node.js](https://skillicons.dev/icons?i=nodejs) ![Express.js](https://skillicons.dev/icons?i=express) ![Ember.js](https://skillicons.dev/icons?i=ember) ![PostgreSQL](https://skillicons.dev/icons?i=postgres) ![MongoDB](https://skillicons.dev/icons?i=mongodb) ![Supabase](https://skillicons.dev/icons?i=supabase)![React](https://skillicons.dev/icons?i=react)
 
 **Cloud, DevOps & Tooling**
 
@@ -139,6 +140,7 @@ An AI-powered clinical assistant automating patient intake with real-time comput
 - Replaced FastSLAM with EKF-SLAM, reducing localization compute time by 30% while maintaining accuracy.
 - Built ego-aligned track corridors from quintic splines using arc-length sampling across a configurable 15 m horizon.
 - Expanded simulation data collection and monitoring by integrating 8 sensors, including IMU, wheel-speed, and GPS.
+- Cut ~20 ms of planning latency by switching to LiDAR-only planning and removing the camera neural network.
 
 `Python` `C++` `ROS2` `LiDAR`
 
