@@ -35,15 +35,15 @@ I'm a Computer Science and Statistics student at the **University of Toronto** (
 
 **Languages**
 
-![Python](https://skillicons.dev/icons?i=py) ![Java](https://skillicons.dev/icons?i=java) ![JavaScript](https://skillicons.dev/icons?i=js) ![TypeScript](https://skillicons.dev/icons?i=ts) ![C++](https://skillicons.dev/icons?i=cpp) ![C](https://skillicons.dev/icons?i=c) ![Bash](https://skillicons.dev/icons?i=bash) ![HTML/CSS](https://skillicons.dev/icons?i=html,css)
+![Python](https://skillicons.dev/icons?i=py) ![Java](https://skillicons.dev/icons?i=java) ![JavaScript](https://skillicons.dev/icons?i=js) ![TypeScript](https://skillicons.dev/icons?i=ts) ![C++](https://skillicons.dev/icons?i=cpp) ![C](https://skillicons.dev/icons?i=c) ![Bash](https://skillicons.dev/icons?i=bash) ![HTML/CSS](https://skillicons.dev/icons?i=html,css) ![SQL](https://img.shields.io/badge/SQL-0284C7?style=flat-square&logo=postgresql&logoColor=white)
 
 **Frameworks & Databases**
 
-![FastAPI](https://skillicons.dev/icons?i=fastapi) ![Django](https://skillicons.dev/icons?i=django) ![Node.js](https://skillicons.dev/icons?i=nodejs) ![Express.js](https://skillicons.dev/icons?i=express) ![Ember.js](https://skillicons.dev/icons?i=ember) ![PostgreSQL](https://skillicons.dev/icons?i=postgres) ![MongoDB](https://skillicons.dev/icons?i=mongodb) ![Supabase](https://skillicons.dev/icons?i=supabase)![React](https://skillicons.dev/icons?i=react)
+![FastAPI](https://skillicons.dev/icons?i=fastapi) ![Django](https://skillicons.dev/icons?i=django) ![Node.js](https://skillicons.dev/icons?i=nodejs) ![Express.js](https://skillicons.dev/icons?i=express) ![Ember.js](https://skillicons.dev/icons?i=ember) ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-0369A1?style=flat-square&logo=sqlalchemy&logoColor=white) ![PostgreSQL](https://skillicons.dev/icons?i=postgres) ![MySQL](https://skillicons.dev/icons?i=mysql) ![Redis](https://skillicons.dev/icons?i=redis) ![MongoDB](https://skillicons.dev/icons?i=mongodb) ![Supabase](https://skillicons.dev/icons?i=supabase)![React](https://skillicons.dev/icons?i=react)
 
 **Cloud, DevOps & Tooling**
 
-![Docker](https://skillicons.dev/icons?i=docker) ![Linux](https://skillicons.dev/icons?i=linux) ![Git](https://skillicons.dev/icons?i=git) ![GitHub](https://skillicons.dev/icons?i=github) ![GCP](https://skillicons.dev/icons?i=gcp) ![AWS](https://skillicons.dev/icons?i=aws) ![Azure](https://skillicons.dev/icons?i=azure) ![Vercel](https://skillicons.dev/icons?i=vercel) ![VS Code](https://skillicons.dev/icons?i=vscode)
+![Docker](https://skillicons.dev/icons?i=docker) ![Linux](https://skillicons.dev/icons?i=linux) ![Git](https://skillicons.dev/icons?i=git) ![GitHub](https://skillicons.dev/icons?i=github) ![GCP](https://skillicons.dev/icons?i=gcp) ![AWS](https://skillicons.dev/icons?i=aws) ![Azure](https://skillicons.dev/icons?i=azure) ![Vercel](https://skillicons.dev/icons?i=vercel) ![VS Code](https://skillicons.dev/icons?i=vscode) ![Claude Code](https://img.shields.io/badge/Claude%20Code-0C4A6E?style=flat-square&logo=anthropic&logoColor=white) ![Jira](https://img.shields.io/badge/Jira-0284C7?style=flat-square&logo=jira&logoColor=white) ![Confluence](https://img.shields.io/badge/Confluence-0369A1?style=flat-square&logo=confluence&logoColor=white)
 
 **Robotics**
 
@@ -70,7 +70,7 @@ An embedded C++ database engineered for high-throughput concurrent access via sh
 
 - Built an embedded database with 16-way sharded locking, boosting read throughput 5x (8M to 40M ops/sec)
 - Implemented reader-writer locks so reads proceed during disk writes, preventing race conditions across 16 threads
-- Created a file compaction routine to safely clean up keys, reducing disk usage by 45%+ without pausing the app
+- Built background compaction to purge stale and deleted keys, cutting disk usage by 45% without pausing operations
 - Implemented crash recovery by persisting every update to a checksummed write-ahead log before applying changes
 
 </details>
@@ -121,15 +121,15 @@ An AI-powered clinical assistant automating patient intake with real-time comput
 ### 💼 Experience
 
 **Software Developer Intern (Full Stack)** · FreshBooks
-`Sept 2026 – Dec 2026` · Toronto, ON
+`Sept 2026 – Present` · Toronto, ON
 
-- Accelerated bank connections page loads by 86% (700ms to 100ms) by removing an inactive-bank API fetch.
-- Reduced invoice email latency by 1–3s by decoupling PDF generation across services with GCS-backed event delivery.
-- Improved backend execution speed by 13.6x across 20 benchmark calls by caching metadata and invoice lookups.
-- Enabled proactive bank reconnection warnings by tracking Yodlee consent expiry across webhooks, storage, and APIs.
+- Shortened bank page load time by 86% (700ms to 100ms) by moving a blocking API request to the background.
+- Cut latency by 92% over 20 benchmark calls by caching invoices and paginated data in Redis with TTL and LRU.
+- Enabled concurrent bank imports by replacing 2 system-level locks with row-level locks on IDs and duplicates.
+- Reduced invoice email latency by 1–3s by decoupling PDF generation across services with GCS event delivery.
 - Unified Plaid and Yodlee bank connections across backend services and Ember for staged rollout to 100% of users.
 
-`Python` `FastAPI` `Ember.js` `GCP`
+`Python` `FastAPI` `Ember.js` `Redis` `GCP`
 
 <br/>
 
