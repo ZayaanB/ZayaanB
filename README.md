@@ -35,19 +35,19 @@ I'm a Computer Science and Statistics student at the **University of Toronto** (
 
 **Languages**
 
-![Python](https://skillicons.dev/icons?i=py) ![Java](https://skillicons.dev/icons?i=java) ![JavaScript](https://skillicons.dev/icons?i=js) ![TypeScript](https://skillicons.dev/icons?i=ts) ![C++](https://skillicons.dev/icons?i=cpp) ![C](https://skillicons.dev/icons?i=c) ![Bash](https://skillicons.dev/icons?i=bash) ![HTML/CSS](https://skillicons.dev/icons?i=html,css) <img src="https://img.shields.io/badge/-0284C7?style=for-the-badge&logo=postgresql&logoColor=white" height="48" alt="SQL" title="SQL" />
+![Python](https://skillicons.dev/icons?i=py) ![Java](https://skillicons.dev/icons?i=java) ![JavaScript](https://skillicons.dev/icons?i=js) ![TypeScript](https://skillicons.dev/icons?i=ts) ![C++](https://skillicons.dev/icons?i=cpp) ![C](https://skillicons.dev/icons?i=c) ![Bash](https://skillicons.dev/icons?i=bash) ![HTML/CSS](https://skillicons.dev/icons?i=html,css) <img src="https://raw.githubusercontent.com/LelouchFR/skill-icons/main/assets/postgresql-dark.svg" height="48" alt="SQL" title="SQL" />
 
 **Frameworks & Databases**
 
-![FastAPI](https://skillicons.dev/icons?i=fastapi) ![Django](https://skillicons.dev/icons?i=django) ![Node.js](https://skillicons.dev/icons?i=nodejs) ![Express.js](https://skillicons.dev/icons?i=express) ![Ember.js](https://skillicons.dev/icons?i=ember) <img src="https://img.shields.io/badge/-0369A1?style=for-the-badge&logo=sqlalchemy&logoColor=white" height="48" alt="SQLAlchemy" title="SQLAlchemy" /> ![PostgreSQL](https://skillicons.dev/icons?i=postgres) ![MySQL](https://skillicons.dev/icons?i=mysql) ![Redis](https://skillicons.dev/icons?i=redis) ![MongoDB](https://skillicons.dev/icons?i=mongodb) ![Supabase](https://skillicons.dev/icons?i=supabase)![React](https://skillicons.dev/icons?i=react)
+![FastAPI](https://skillicons.dev/icons?i=fastapi) ![Django](https://skillicons.dev/icons?i=django) ![Node.js](https://skillicons.dev/icons?i=nodejs) ![Express.js](https://skillicons.dev/icons?i=express) ![Ember.js](https://skillicons.dev/icons?i=ember) <img src="https://raw.githubusercontent.com/LelouchFR/skill-icons/main/assets/sqlalchemy-dark.svg" height="48" alt="SQLAlchemy" title="SQLAlchemy" /> ![PostgreSQL](https://skillicons.dev/icons?i=postgres) ![MySQL](https://skillicons.dev/icons?i=mysql) ![Redis](https://skillicons.dev/icons?i=redis) ![MongoDB](https://skillicons.dev/icons?i=mongodb) ![Supabase](https://skillicons.dev/icons?i=supabase)![React](https://skillicons.dev/icons?i=react)
 
 **Cloud, DevOps & Tooling**
 
-![Docker](https://skillicons.dev/icons?i=docker) ![Linux](https://skillicons.dev/icons?i=linux) ![Git](https://skillicons.dev/icons?i=git) ![GitHub](https://skillicons.dev/icons?i=github) ![GCP](https://skillicons.dev/icons?i=gcp) ![AWS](https://skillicons.dev/icons?i=aws) ![Azure](https://skillicons.dev/icons?i=azure) ![Vercel](https://skillicons.dev/icons?i=vercel) ![VS Code](https://skillicons.dev/icons?i=vscode) <img src="https://img.shields.io/badge/-0C4A6E?style=for-the-badge&logo=anthropic&logoColor=white" height="48" alt="Claude Code" title="Claude Code" /> <img src="https://img.shields.io/badge/-0284C7?style=for-the-badge&logo=jira&logoColor=white" height="48" alt="Jira" title="Jira" /> <img src="https://img.shields.io/badge/-0369A1?style=for-the-badge&logo=confluence&logoColor=white" height="48" alt="Confluence" title="Confluence" />
+![Docker](https://skillicons.dev/icons?i=docker) ![Linux](https://skillicons.dev/icons?i=linux) ![Git](https://skillicons.dev/icons?i=git) ![GitHub](https://skillicons.dev/icons?i=github) ![GCP](https://skillicons.dev/icons?i=gcp) ![AWS](https://skillicons.dev/icons?i=aws) ![Azure](https://skillicons.dev/icons?i=azure) ![Vercel](https://skillicons.dev/icons?i=vercel) ![VS Code](https://skillicons.dev/icons?i=vscode) <img src="https://raw.githubusercontent.com/LelouchFR/skill-icons/main/assets/claude-dark.svg" height="48" alt="Claude Code" title="Claude Code" /> <img src="https://raw.githubusercontent.com/LelouchFR/skill-icons/main/assets/jira-dark.svg" height="48" alt="Jira" title="Jira" /> <img src="https://raw.githubusercontent.com/LelouchFR/skill-icons/main/assets/confluence-dark.svg" height="48" alt="Confluence" title="Confluence" />
 
 **Robotics**
 
-<img src="https://img.shields.io/badge/-0284C7?style=for-the-badge&logo=ros&logoColor=white" height="48" alt="ROS 2" title="ROS 2" />
+<img src="https://raw.githubusercontent.com/LelouchFR/skill-icons/main/assets/ros-dark.svg" height="48" alt="ROS 2" title="ROS 2" />
 
 ---
 
