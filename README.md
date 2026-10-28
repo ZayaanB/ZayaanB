@@ -80,17 +80,17 @@ An embedded C++ database engineered for high-throughput concurrent access via sh
 <summary><b>🔗 Context Sync Extension</b> — TypeScript / VS Code Extension API</summary>
 <br/>
 
-A VS Code extension automating AI chat context continuity across developer environments — 750+ downloads.
+A VS Code extension automating AI chat context continuity across developer environments — 800+ downloads.
 
 | | |
 |---|---|
 | **Stack** | TypeScript, VS Code Extension API |
-| **Scale** | 750+ downloads |
-| **Performance** | 25%+ token-use reduction, 30%+ summary compaction |
+| **Scale** | 800+ downloads |
+| **Performance** | Recall improved from 67% to 93% on 8 synthetic cases, 30%+ summary compaction |
 | **Repository** | [github.com/ZayaanB](https://github.com/ZayaanB) |
 
-- Developed a VS Code extension with 750+ downloads that automates AI chat context sharing across environments
-- Reduced token use by 25%+ by modelling chats as a weighted graph and selecting context via shortest-path search
+- Developed a VS Code extension with 800+ downloads that automates AI chat context sharing across environments
+- Raised recall from 67% to 93% on 8 synthetic cases by combining lexical retrieval with weighted Dijkstra search
 - Compacted chat summaries by 30%+ by designing a Markdown schema to pack more context into fewer tokens
 
 </details>
