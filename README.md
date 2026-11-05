@@ -58,13 +58,13 @@ I'm a Computer Science and Statistics student at the **University of Toronto** (
 <summary><b>🗃️ Embedded Key-Value Store</b> — C++ / CMake / Multithreading / Linux</summary>
 <br/>
 
-An embedded C++ database engineered for high-throughput concurrent access via sharding and lock-free reads.
+An embedded C++ database engineered for high-throughput concurrent access via sharding and reader-writer locks.
 
 | | |
 |---|---|
 | **Stack** | C++, CMake, Multithreading, Linux |
 | **Scale** | 16-way sharded locking, 5x read throughput (8M → 40M ops/sec) |
-| **Performance** | 45%+ disk usage reduction via compaction |
+| **Performance** | 45% disk usage reduction via compaction |
 | **Reliability** | Checksummed write-ahead log for crash recovery |
 | **Repository** | [github.com/ZayaanB](https://github.com/ZayaanB) |
 
