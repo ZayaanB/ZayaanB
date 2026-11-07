@@ -80,7 +80,7 @@ An embedded C++ database engineered for high-throughput concurrent access via sh
 <summary><b>🔗 Context Sync Extension</b> — TypeScript / VS Code Extension API</summary>
 <br/>
 
-A VS Code extension automating AI chat context continuity across developer environments — 800+ downloads.
+A VS Code extension automating AI chat context continuity across developer environments — 850+ downloads.
 
 | | |
 |---|---|
