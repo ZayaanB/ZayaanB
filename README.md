@@ -120,18 +120,18 @@ An AI-powered clinical assistant automating patient intake with real-time comput
 
 ### 💼 Experience
 
-**Incoming Software Engineer Intern (HIP Runtime)** · AMD
+**AMD** · Incoming Software Engineer Intern (HIP Runtime)
 `May 2027 – Aug 2027` · Markham, ON
 
 <br/>
 
-**Incoming Software Developer Intern (Backend/Platform)** · Autodesk
+**Autodesk** · Incoming Software Developer Intern (Backend/Platform)
 `Jan 2027 – Apr 2027` · Toronto, ON
 
 <br/>
 
 <details>
-<summary><b>Software Developer Intern (Full Stack)</b> · FreshBooks</summary>
+<summary><b>FreshBooks</b> · Software Developer Intern (Full Stack)</summary>
 
 `Sept 2026 – Present` · Toronto, ON
 
@@ -148,7 +148,7 @@ An AI-powered clinical assistant automating patient intake with real-time comput
 <br/>
 
 <details>
-<summary><b>Autonomy Software Engineer (Mapping & Planning)</b> · University of Toronto Formula Racing – Driverless</summary>
+<summary><b>University of Toronto Formula Racing – Driverless</b> · Autonomy Software Engineer (Mapping & Planning)</summary>
 
 `July 2026 – Present` · Toronto, ON
 
@@ -164,7 +164,7 @@ An AI-powered clinical assistant automating patient intake with real-time comput
 <br/>
 
 <details>
-<summary><b>Software Engineer Intern (Backend AI)</b> · FlyRank AI</summary>
+<summary><b>FlyRank AI</b> · Software Engineer Intern (Backend AI)</summary>
 
 `July 2026 – Sept 2026` · Toronto, ON
 
@@ -179,7 +179,7 @@ An AI-powered clinical assistant automating patient intake with real-time comput
 <br/>
 
 <details>
-<summary><b>Software Developer Intern (Full Stack)</b> · KorraNet Creative</summary>
+<summary><b>KorraNet Creative</b> · Software Developer Intern (Full Stack)</summary>
 
 `May 2026 – July 2026` · Remote
 
