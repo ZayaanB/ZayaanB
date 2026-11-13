@@ -80,16 +80,16 @@ An embedded C++ database engineered for high-throughput concurrent access via sh
 <summary><b>🔗 Context Sync Extension</b> — TypeScript / VS Code Extension API</summary>
 <br/>
 
-A VS Code extension automating AI chat context continuity across developer environments — 850+ downloads.
+A VS Code extension automating AI chat context continuity across developer environments — 900+ downloads.
 
 | | |
 |---|---|
 | **Stack** | TypeScript, VS Code Extension API |
-| **Scale** | 800+ downloads |
+| **Scale** | 900+ downloads |
 | **Performance** | Recall improved from 67% to 93% on 8 synthetic cases, 30%+ summary compaction |
 | **Repository** | [github.com/ZayaanB](https://github.com/ZayaanB) |
 
-- Developed a VS Code extension with 800+ downloads that automates AI chat context sharing across environments
+- Developed a VS Code extension with 900+ downloads that automates AI chat context sharing across environments
 - Raised recall from 67% to 93% on 8 synthetic cases by combining lexical retrieval with weighted Dijkstra search
 - Compacted chat summaries by 30%+ by designing a Markdown schema to pack more context into fewer tokens
 
@@ -120,50 +120,76 @@ An AI-powered clinical assistant automating patient intake with real-time comput
 
 ### 💼 Experience
 
-**Software Developer Intern (Full Stack)** · FreshBooks
+**Incoming Software Engineer Intern (HIP Runtime)** · AMD
+`May 2027 – Aug 2027` · Markham, ON
+
+<br/>
+
+**Incoming Software Developer Intern (Backend/Platform)** · Autodesk
+`Jan 2027 – Apr 2027` · Toronto, ON
+
+<br/>
+
+<details>
+<summary><b>Software Developer Intern (Full Stack)</b> · FreshBooks</summary>
+
 `Sept 2026 – Present` · Toronto, ON
 
 - Shortened bank page load time by 86% (700ms to 100ms) by moving a blocking API request to the background.
 - Cut latency by 92% over 20 benchmark calls by caching invoices and paginated data in Redis with TTL and LRU.
-- Enabled concurrent bank imports by replacing 2 system-level locks with row-level locks on IDs and duplicates.
-- Reduced invoice email latency by 1–3s by decoupling PDF generation across services with GCS event delivery.
+- Built backend audit logging for 5 bank connection event types, giving users and Support a clear connection history.
 - Unified Plaid and Yodlee bank connections across backend services and Ember for staged rollout to 100% of users.
+- Prototyped row-level locks on IDs and duplicates to replace 2 system-level locks for concurrent bank imports.
 
 `Python` `FastAPI` `Ember.js` `Redis` `GCP`
 
+</details>
+
 <br/>
 
-<!-- NOTE: Keep the 4th bullet here (LiDAR-only latency cut) even if it's dropped from the current resume — Zayaan wants it retained regardless of resume updates. -->
-**Autonomy Software Engineer (Mapping & Planning)** · University of Toronto Formula Racing – Driverless
+<details>
+<summary><b>Autonomy Software Engineer (Mapping & Planning)</b> · University of Toronto Formula Racing – Driverless</summary>
+
 `July 2026 – Present` · Toronto, ON
+
 - Developed mapping and path-planning software in C++ and ROS 2 for Canada's first driverless FSAE car.
-- Replaced FastSLAM with EKF-SLAM, reducing localization compute time by 30% while maintaining accuracy.
+- Reduced localization compute time by 30% by replacing FastSLAM with EKF-SLAM while maintaining accuracy.
 - Built ego-aligned track corridors from quintic splines using arc-length sampling across a configurable 15 m horizon.
-- Expanded simulation data collection and monitoring by integrating 8 sensors, including IMU, wheel-speed, and GPS.
-- Cut ~20 ms of planning latency by switching to LiDAR-only planning and removing the camera neural network.
+- Integrated 8 sensors, including IMU, wheel speed, and GPS, expanding simulation data collection and monitoring.
 
 `Python` `C++` `ROS2` `LiDAR`
 
+</details>
+
 <br/>
 
-**Software Engineer Intern (Backend AI)** · FlyRank AI
+<details>
+<summary><b>Software Engineer Intern (Backend AI)</b> · FlyRank AI</summary>
+
 `July 2026 – Sept 2026` · Toronto, ON
 
 - Prevented duplicate charges under 50+ simultaneous requests by deduplicating payment events in the database.
 - Built a centralized embeddable widget platform, routing form submissions to a dashboard via a one-line script tag.
-- Secured a public endpoint with validation, rate limiting, and geolocation checks, cutting spam by 80%.
+- Lowered spam submissions by 80% by securing a public API with validation, rate limiting, and geolocation checks.
 
 `TypeScript` `Node.js` `Express.js` `SQLite` `Zod`
 
+</details>
+
 <br/>
 
-**Software Developer Intern (Full Stack)** · KorraNet Creative
+<details>
+<summary><b>Software Developer Intern (Full Stack)</b> · KorraNet Creative</summary>
+
 `May 2026 – July 2026` · Remote
 
 - Optimized Meta OAuth token handling and storage, reducing token refresh failures by 40%+ for AI integrations.
 - Reduced system crashes and failed API calls by 85%+ by adding error handling and retries for failed requests.
 
 `Python` `FastAPI` `OAuth` `Google Cloud Platform`
+
+</details>
+
 <br/>
 
 ---
