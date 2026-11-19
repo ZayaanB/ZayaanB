@@ -35,19 +35,19 @@ I'm a Computer Science and Statistics student at the **University of Toronto** (
 
 **Languages**
 
-![Python](https://skillicons.dev/icons?i=py) ![Java](https://skillicons.dev/icons?i=java) ![JavaScript](https://skillicons.dev/icons?i=js) ![TypeScript](https://skillicons.dev/icons?i=ts) ![C++](https://skillicons.dev/icons?i=cpp) ![C](https://skillicons.dev/icons?i=c) ![Bash](https://skillicons.dev/icons?i=bash) ![HTML/CSS](https://skillicons.dev/icons?i=html,css) <img src="https://raw.githubusercontent.com/LelouchFR/skill-icons/main/assets/postgresql-dark.svg" height="48" alt="SQL" title="SQL" />
+![Python](https://skillicons.dev/icons?i=py) ![Java](https://skillicons.dev/icons?i=java) ![JavaScript](https://skillicons.dev/icons?i=js) ![C++](https://skillicons.dev/icons?i=cpp) ![C](https://skillicons.dev/icons?i=c) ![TypeScript](https://skillicons.dev/icons?i=ts) <img src="https://raw.githubusercontent.com/LelouchFR/skill-icons/main/assets/postgresql-dark.svg" height="48" alt="SQL" title="SQL" /> ![Bash](https://skillicons.dev/icons?i=bash) ![HTML/CSS](https://skillicons.dev/icons?i=html,css)
 
-**Frameworks & Databases**
+**Libraries & Frameworks**
 
-![FastAPI](https://skillicons.dev/icons?i=fastapi) ![Django](https://skillicons.dev/icons?i=django) ![Node.js](https://skillicons.dev/icons?i=nodejs) ![Express.js](https://skillicons.dev/icons?i=express) ![Ember.js](https://skillicons.dev/icons?i=ember) <img src="https://raw.githubusercontent.com/LelouchFR/skill-icons/main/assets/sqlalchemy-dark.svg" height="48" alt="SQLAlchemy" title="SQLAlchemy" /> ![PostgreSQL](https://skillicons.dev/icons?i=postgres) ![MySQL](https://skillicons.dev/icons?i=mysql) ![Redis](https://skillicons.dev/icons?i=redis) ![MongoDB](https://skillicons.dev/icons?i=mongodb) ![Supabase](https://skillicons.dev/icons?i=supabase)![React](https://skillicons.dev/icons?i=react)
+![FastAPI](https://skillicons.dev/icons?i=fastapi) ![Django](https://skillicons.dev/icons?i=django) ![Express.js](https://skillicons.dev/icons?i=express) ![Node.js](https://skillicons.dev/icons?i=nodejs) ![React](https://skillicons.dev/icons?i=react) ![Ember.js](https://skillicons.dev/icons?i=ember) <img src="https://raw.githubusercontent.com/LelouchFR/skill-icons/main/assets/sqlalchemy-dark.svg" height="48" alt="SQLAlchemy" title="SQLAlchemy" /> <img src="https://raw.githubusercontent.com/LelouchFR/skill-icons/main/assets/ros-dark.svg" height="48" alt="ROS 2" title="ROS 2" />
 
-**Cloud, DevOps & Tooling**
+**Cloud & Databases**
 
-![Docker](https://skillicons.dev/icons?i=docker) ![Linux](https://skillicons.dev/icons?i=linux) ![Git](https://skillicons.dev/icons?i=git) ![GitHub](https://skillicons.dev/icons?i=github) ![GCP](https://skillicons.dev/icons?i=gcp) ![AWS](https://skillicons.dev/icons?i=aws) ![Azure](https://skillicons.dev/icons?i=azure) ![Vercel](https://skillicons.dev/icons?i=vercel) ![VS Code](https://skillicons.dev/icons?i=vscode) <img src="https://raw.githubusercontent.com/LelouchFR/skill-icons/main/assets/claude-dark.svg" height="48" alt="Claude Code" title="Claude Code" /> <img src="https://raw.githubusercontent.com/LelouchFR/skill-icons/main/assets/jira-dark.svg" height="48" alt="Jira" title="Jira" /> <img src="https://raw.githubusercontent.com/LelouchFR/skill-icons/main/assets/confluence-dark.svg" height="48" alt="Confluence" title="Confluence" />
+![PostgreSQL](https://skillicons.dev/icons?i=postgres) ![MySQL](https://skillicons.dev/icons?i=mysql) ![Redis](https://skillicons.dev/icons?i=redis) ![AWS](https://skillicons.dev/icons?i=aws) ![Azure](https://skillicons.dev/icons?i=azure) ![GCP](https://skillicons.dev/icons?i=gcp) ![Vercel](https://skillicons.dev/icons?i=vercel) ![Supabase](https://skillicons.dev/icons?i=supabase) ![MongoDB](https://skillicons.dev/icons?i=mongodb)
 
-**Robotics**
+**Developer Tools**
 
-<img src="https://raw.githubusercontent.com/LelouchFR/skill-icons/main/assets/ros-dark.svg" height="48" alt="ROS 2" title="ROS 2" />
+![Linux](https://skillicons.dev/icons?i=linux) ![Docker](https://skillicons.dev/icons?i=docker) ![Git](https://skillicons.dev/icons?i=git) ![GitHub](https://skillicons.dev/icons?i=github) <img src="https://raw.githubusercontent.com/LelouchFR/skill-icons/main/assets/claude-dark.svg" height="48" alt="Claude Code" title="Claude Code" /> `Codex`
 
 ---
 
@@ -63,15 +63,15 @@ An embedded C++ database engineered for high-throughput concurrent access via sh
 | | |
 |---|---|
 | **Stack** | C++, CMake, Multithreading, Linux |
-| **Scale** | 16-way sharded locking, 5x read throughput (8M → 40M ops/sec) |
+| **Scale** | 16-way sharded locking, 5x read-heavy throughput (8M → 40M ops/s) |
 | **Performance** | 45% disk usage reduction via compaction |
 | **Reliability** | Checksummed write-ahead log for crash recovery |
 | **Repository** | [github.com/ZayaanB](https://github.com/ZayaanB) |
 
-- Built an embedded database with 16-way sharded locking, boosting read throughput 5x (8M to 40M ops/sec)
-- Implemented reader-writer locks so reads proceed during disk writes, preventing race conditions across 16 threads
-- Built background compaction to purge stale and deleted keys, cutting disk usage by 45% without pausing operations
-- Implemented crash recovery by persisting every update to a checksummed write-ahead log before applying changes
+- Designed an embedded DB with 16-way sharded locking, boosting read-heavy throughput 5x (8M to 40M ops/s).
+- Applied reader-writer locks so reads proceed during disk writes, preventing race conditions across 16 threads.
+- Added background compaction to purge stale/deleted keys, cutting disk usage by 45% without pausing operations.
+- Implemented crash recovery by persisting every update to a checksummed write-ahead log before applying changes.
 
 </details>
 
@@ -89,9 +89,9 @@ A VS Code extension automating AI chat context continuity across developer envir
 | **Performance** | Recall improved from 67% to 93% on 8 synthetic cases, 30%+ summary compaction |
 | **Repository** | [github.com/ZayaanB](https://github.com/ZayaanB) |
 
-- Developed a VS Code extension with 900+ downloads that automates AI chat context sharing across environments
-- Raised recall from 67% to 93% on 8 synthetic cases by combining lexical retrieval with weighted Dijkstra search
-- Compacted chat summaries by 30%+ by designing a Markdown schema to pack more context into fewer tokens
+- Developed a VS Code extension with 900+ downloads that automates AI chat context sharing across environments.
+- Raised recall from 67% to 93% on 8 synthetic cases by combining lexical retrieval with weighted Dijkstra search.
+- Compacted chat summaries by 30%+ by designing a Markdown schema to pack more context into fewer tokens.
 
 </details>
 
@@ -137,9 +137,9 @@ An AI-powered clinical assistant automating patient intake with real-time comput
 
 - Shortened bank page load time by 86% (700ms to 100ms) by moving a blocking API request to the background.
 - Cut latency by 92% over 20 benchmark calls by caching invoices and paginated data in Redis with TTL and LRU.
-- Built backend audit logging for 5 bank connection event types, giving users and Support a clear connection history.
-- Unified Plaid and Yodlee bank connections across backend services and Ember for staged rollout to 100% of users.
-- Prototyped row-level locks on IDs and duplicates to replace 2 system-level locks for concurrent bank imports.
+- Shipped backend audit logging for 5 bank connection event types, giving users and Support clear connection history.
+- Built Jira/GitHub connectors, APIs, and a dashboard for an AI tool that opened PRs for 90% of demo tickets.
+- Prototyped row-level locks for concurrent bank imports, replacing 2 system-level locks to reduce contention.
 
 `Python` `FastAPI` `Ember.js` `Redis` `GCP`
 
@@ -148,16 +148,16 @@ An AI-powered clinical assistant automating patient intake with real-time comput
 <br/>
 
 <details>
-<summary><b>University of Toronto Formula Racing – Driverless</b> · Autonomy Software Engineer (Mapping & Planning)</summary>
+<summary><b>University of Toronto Formula Racing (Driverless)</b> · Autonomy Software Engineer (Mapping & Planning)</summary>
 
 `July 2026 – Present` · Toronto, ON
 
-- Developed mapping and path-planning software in C++ and ROS 2 for Canada's first driverless FSAE car.
+- Developed mapping and path-planning software in C++ and ROS 2 for Canada’s first driverless FSAE car.
 - Reduced localization compute time by 30% by replacing FastSLAM with EKF-SLAM while maintaining accuracy.
-- Built ego-aligned track corridors from quintic splines using arc-length sampling across a configurable 15 m horizon.
+- Built ego-aligned track corridors from quintic splines using arc-length sampling across a configurable 15m horizon.
 - Integrated 8 sensors, including IMU, wheel speed, and GPS, expanding simulation data collection and monitoring.
 
-`Python` `C++` `ROS2` `LiDAR`
+`Python` `C++` `ROS 2` `LiDAR`
 
 </details>
 
@@ -168,8 +168,7 @@ An AI-powered clinical assistant automating patient intake with real-time comput
 
 `July 2026 – Sept 2026` · Toronto, ON
 
-- Prevented duplicate charges under 50+ simultaneous requests by deduplicating payment events in the database.
-- Built a centralized embeddable widget platform, routing form submissions to a dashboard via a one-line script tag.
+- Prevented duplicate charges across 50+ simultaneous requests by deduplicating payment events in the database.
 - Lowered spam submissions by 80% by securing a public API with validation, rate limiting, and geolocation checks.
 
 `TypeScript` `Node.js` `Express.js` `SQLite` `Zod`
