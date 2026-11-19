@@ -47,8 +47,7 @@ I'm a Computer Science and Statistics student at the **University of Toronto** (
 
 **Developer Tools**
 
-![Linux](https://skillicons.dev/icons?i=linux) ![Docker](https://skillicons.dev/icons?i=docker) ![Git](https://skillicons.dev/icons?i=git) ![GitHub](https://skillicons.dev/icons?i=github) <img src="https://raw.githubusercontent.com/LelouchFR/skill-icons/main/assets/claude-dark.svg" height="48" alt="Claude Code" title="Claude Code" /> `Codex`
-
+![Linux](https://skillicons.dev/icons?i=linux) ![Docker](https://skillicons.dev/icons?i=docker) ![Git](https://skillicons.dev/icons?i=git) ![GitHub](https://skillicons.dev/icons?i=github) <img src="https://raw.githubusercontent.com/LelouchFR/skill-icons/main/assets/claude-dark.svg" height="48" alt="Claude Code" title="Claude Code" /> <img src="https://raw.githubusercontent.com/backnotprop/orchestrator/main/assets/providers/codex-icon-dark.png" width="48" height="48" alt="Codex" title="Codex" />
 ---
 
 ### 🚀 Featured Projects
