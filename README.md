@@ -120,13 +120,9 @@ An AI-powered clinical assistant automating patient intake with real-time comput
 ### 💼 Experience
 
 **AMD** · Incoming Software Engineer Intern (GPU Software/HIP Runtime)
-`May 2027 – Aug 2027` · Markham, ON
-
 <br/>
 
 **Autodesk** · Incoming Software Developer Intern (Backend/Cloud Platform)
-`Jan 2027 – Apr 2027` · Toronto, ON
-
 <br/>
 
 <details>
