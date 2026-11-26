@@ -24,7 +24,7 @@
 
 ### 🧠 About Me
 
-I'm a Computer Science and Statistics student at the **University of Toronto** (Honours B.Sc., Co-op) and a 3x hackathon winner. I enjoy building across the stack, from low-level systems in C++ to production Node/FastAPI applications and applied AI/ML tooling. I care about **reliability, performance, and clean developer experience**, whether that means shaving lock contention out of an embedded key-value store or cutting API failure rates in a production service.
+I'm a Computer Science and Statistics student at the **University of Toronto** (Honours B.Sc., Co-op, expected graduation 2028) and a 3x hackathon winner. I enjoy building across the stack, from low-level systems in C++ to production Node/FastAPI applications and applied AI/ML tooling. I care about **reliability, performance, and clean developer experience**, whether that means shaving lock contention out of an embedded key-value store or cutting API failure rates in a production service.
 
 
 **🎯 Open To:** Software Engineering Internships · Software Engineer · Software Developer · Full-Stack & Backend Engineering · AI/ML Engineering
@@ -47,30 +47,30 @@ I'm a Computer Science and Statistics student at the **University of Toronto** (
 
 **Developer Tools**
 
-![Linux](https://skillicons.dev/icons?i=linux) ![Docker](https://skillicons.dev/icons?i=docker) ![Git](https://skillicons.dev/icons?i=git) ![GitHub](https://skillicons.dev/icons?i=github) <img src="https://raw.githubusercontent.com/LelouchFR/skill-icons/main/assets/claude-dark.svg" height="48" alt="Claude Code" title="Claude Code" /> <img src="https://raw.githubusercontent.com/backnotprop/orchestrator/main/assets/providers/codex-icon-dark.png" width="48" height="48" alt="Codex" title="Codex" />
+![Linux](https://skillicons.dev/icons?i=linux) ![Docker](https://skillicons.dev/icons?i=docker) ![Git](https://skillicons.dev/icons?i=git) ![GitHub](https://skillicons.dev/icons?i=github) ![Prometheus](https://skillicons.dev/icons?i=prometheus) ![Grafana](https://skillicons.dev/icons?i=grafana) <img src="https://raw.githubusercontent.com/LelouchFR/skill-icons/main/assets/claude-dark.svg" height="48" alt="Claude Code" title="Claude Code" /> <img src="https://raw.githubusercontent.com/backnotprop/orchestrator/main/assets/providers/codex-icon-dark.png" width="48" height="48" alt="Codex" title="Codex" />
 ---
 
 ### 🚀 Featured Projects
 
 <!-- NOTE: Keep this project's stack, metrics, and bullets in sync with Zayaan's latest resume unless he says otherwise. -->
 <details>
-<summary><b>🗃️ Embedded Key-Value Store</b> — C++ / CMake / Multithreading / Linux</summary>
+<summary><b>🗃️ Embedded Key-Value Store</b> — C++20 / Linux / CMake / Multithreading / Prometheus / Grafana</summary>
 <br/>
 
-An embedded C++ database engineered for high-throughput concurrent access via sharding and reader-writer locks.
+An embedded C++20 storage engine with 16 on-disk shards and automatic file compaction.
 
 | | |
 |---|---|
-| **Stack** | C++, CMake, Multithreading, Linux |
-| **Scale** | 16-way sharded locking, 5x read-heavy throughput (8M → 40M ops/s) |
-| **Performance** | 45% disk usage reduction via compaction |
-| **Reliability** | Checksummed write-ahead log for crash recovery |
+| **Stack** | C++20, Linux, CMake, Multithreading, Prometheus, Grafana |
+| **Scale** | 16 on-disk shards with automatic file compaction |
+| **Performance** | 4.2K → 1.9M ops/sec on a 95% read workload |
+| **Reliability** | Confirmed writes survived 7 simulated crash scenarios, and 15 of 16 shards stayed readable during a simulated shard failure |
 | **Repository** | [github.com/ZayaanB](https://github.com/ZayaanB) |
 
-- Designed an embedded DB with 16-way sharded locking, boosting read-heavy throughput 5x (8M to 40M ops/s).
-- Applied reader-writer locks so reads proceed during disk writes, preventing race conditions across 16 threads.
-- Added background compaction to purge stale/deleted keys, cutting disk usage by 45% without pausing operations.
-- Implemented crash recovery by persisting every update to a checksummed write-ahead log before applying changes.
+- Built a storage engine that splits data across 16 shards on disk and automatically merges files as they accumulate.
+- Increased throughput from 4.2K to 1.9M ops/sec on a 95% read workload by syncing writes in batches of 1,000.
+- Preserved confirmed writes through 7 simulated crash scenarios by syncing checksummed write-ahead logs to disk.
+- Kept 15 of 16 shards readable during a simulated failure by isolating the affected shard and restoring it from backup.
 
 </details>
 
@@ -119,10 +119,10 @@ An AI-powered clinical assistant automating patient intake with real-time comput
 
 ### 💼 Experience
 
-**AMD** · Incoming Software Engineer Intern (GPU Software/HIP Runtime)
+**AMD** · Incoming Software Engineer Intern (GPU Software/HIP Runtime) · `May 2027 – Aug 2027` · Markham, ON
 <br/>
 
-**Autodesk** · Incoming Software Developer Intern (Backend/Cloud Platform)
+**Autodesk** · Incoming Software Developer Intern (Backend/Cloud Platform) · `Jan 2027 – Apr 2027` · Toronto, ON
 <br/>
 
 <details>
@@ -133,7 +133,7 @@ An AI-powered clinical assistant automating patient intake with real-time comput
 - Shortened bank page load time by 86% (700ms to 100ms) by moving a blocking API request to the background.
 - Cut latency by 92% over 20 benchmark calls by caching invoices and paginated data in Redis with TTL and LRU.
 - Shipped backend audit logging for 5 bank connection event types, giving users and Support clear connection history.
-- Built Jira/GitHub connectors, APIs, and a dashboard for an AI tool that opened PRs for 90% of demo tickets.
+- Built Jira/GitHub connectors, APIs, and a dashboard for an AI tool that opened PRs for 90% of test tickets.
 - Prototyped row-level locks for concurrent bank imports, replacing 2 system-level locks to reduce contention.
 
 `Python` `FastAPI` `Ember.js` `Redis` `GCP`
